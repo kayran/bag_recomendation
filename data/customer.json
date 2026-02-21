@@ -1,0 +1,301 @@
+[{
+  "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
+  "lat": "-23.591",
+  "long": "-46.679",
+  "qtt_order": "2485",
+  "avg_ticket": "37.48"
+}, {
+  "customer_id": "db7c8f47-fe17-4ec2-b010-25b04024c6ce",
+  "lat": "-23.623",
+  "long": "-46.698",
+  "qtt_order": "2265",
+  "avg_ticket": "40.12"
+}, {
+  "customer_id": "b2031d0a-ccaf-48f2-8912-a06b4f5bb5d8",
+  "lat": "-23.555",
+  "long": "-46.638",
+  "qtt_order": "1420",
+  "avg_ticket": "19.84"
+}, {
+  "customer_id": "9b658977-7c3b-46f5-bb81-7c061f8ea495",
+  "lat": "-23.552",
+  "long": "-46.65",
+  "qtt_order": "883",
+  "avg_ticket": "25.01"
+}, {
+  "customer_id": "8796b4f2-e2d0-4b2b-9392-89fb15967622",
+  "lat": "-23.478",
+  "long": "-46.706",
+  "qtt_order": "736",
+  "avg_ticket": "26.81"
+}, {
+  "customer_id": "b9ca45af-83de-4984-b6c2-8d624f340954",
+  "lat": "-23.638",
+  "long": "-46.669",
+  "qtt_order": "712",
+  "avg_ticket": "34.63"
+}, {
+  "customer_id": "a208c6fa-b1c9-45ca-bbcc-73730d07020a",
+  "lat": "-23.641",
+  "long": "-46.753",
+  "qtt_order": "699",
+  "avg_ticket": "35.37"
+}, {
+  "customer_id": "4ce899b7-afbe-4968-bb03-b84783d8826d",
+  "lat": "-23.601",
+  "long": "-46.635",
+  "qtt_order": "686",
+  "avg_ticket": "48.65"
+}, {
+  "customer_id": "a6665b1f-4059-494a-ad85-18b2c0ac9b68",
+  "lat": "-23.554",
+  "long": "-46.662",
+  "qtt_order": "612",
+  "avg_ticket": "19.04"
+}, {
+  "customer_id": "6b0db7b9-3502-4087-a56c-76de9abd649b",
+  "lat": "-23.572",
+  "long": "-46.66",
+  "qtt_order": "609",
+  "avg_ticket": "27.17"
+}, {
+  "customer_id": "16a67ca6-033c-4927-9199-26713520532a",
+  "lat": "-23.514",
+  "long": "-46.616",
+  "qtt_order": "605",
+  "avg_ticket": "51.88"
+}, {
+  "customer_id": "a518fc98-4745-49c4-9825-f43b4eed8aaf",
+  "lat": "-23.592",
+  "long": "-46.684",
+  "qtt_order": "593",
+  "avg_ticket": "97.86"
+}, {
+  "customer_id": "da35a7a9-092f-45e6-9497-e169e350a0b1",
+  "lat": "-23.549",
+  "long": "-46.655",
+  "qtt_order": "561",
+  "avg_ticket": "29"
+}, {
+  "customer_id": "613cc306-f5cf-4234-a834-ee0a023e0b52",
+  "lat": "-23.564",
+  "long": "-46.692",
+  "qtt_order": "535",
+  "avg_ticket": "108.48"
+}, {
+  "customer_id": "2ef827b7-03e3-4dfe-b091-e6ab3d4d23e4",
+  "lat": "-23.552",
+  "long": "-46.651",
+  "qtt_order": "531",
+  "avg_ticket": "22.1"
+}, {
+  "customer_id": "361faf60-24e1-4d55-9e2c-28d558bea7b4",
+  "lat": "-23.538",
+  "long": "-46.654",
+  "qtt_order": "523",
+  "avg_ticket": "41.2"
+}, {
+  "customer_id": "96c042fc-9104-4d48-90ef-7ae485d6b2bf",
+  "lat": "-23.541",
+  "long": "-46.653",
+  "qtt_order": "513",
+  "avg_ticket": "28.18"
+}, {
+  "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
+  "lat": "-23.556",
+  "long": "-46.667",
+  "qtt_order": "509",
+  "avg_ticket": "30.52"
+}, {
+  "customer_id": "3180db64-105a-4685-8941-cf161ac204c0",
+  "lat": "-23.557",
+  "long": "-46.669",
+  "qtt_order": "501",
+  "avg_ticket": "32.79"
+}, {
+  "customer_id": "0e2714fb-577d-45c7-979b-b092122e2afe",
+  "lat": "-23.561",
+  "long": "-46.687",
+  "qtt_order": "500",
+  "avg_ticket": "39.36"
+}, {
+  "customer_id": "35ad5f58-14de-4e8d-b071-34839ef6b691",
+  "lat": "-23.61",
+  "long": "-46.659",
+  "qtt_order": "494",
+  "avg_ticket": "40.62"
+}, {
+  "customer_id": "2d7aefe4-344c-4887-a16f-671f469f143a",
+  "lat": "-23.566",
+  "long": "-46.665",
+  "qtt_order": "482",
+  "avg_ticket": "26.9"
+}, {
+  "customer_id": "e9780156-90e0-4308-8e74-91406c5165f1",
+  "lat": "-23.582",
+  "long": "-46.63",
+  "qtt_order": "476",
+  "avg_ticket": "38.68"
+}, {
+  "customer_id": "1be25b9f-043a-4c6e-a297-d2519dbdf49b",
+  "lat": "-23.552",
+  "long": "-46.65",
+  "qtt_order": "475",
+  "avg_ticket": "31.13"
+}, {
+  "customer_id": "f65f72e1-7e6d-4b91-9c9e-62f0c8b9eca9",
+  "lat": "-23.628",
+  "long": "-46.667",
+  "qtt_order": "475",
+  "avg_ticket": "25.88"
+}, {
+  "customer_id": "4388c5a7-ac82-4236-9bca-3565e90a2110",
+  "lat": "-23.528",
+  "long": "-46.721",
+  "qtt_order": "467",
+  "avg_ticket": "41.34"
+}, {
+  "customer_id": "e652af6e-3d8b-4060-9c79-d2a0d4dee44d",
+  "lat": "-23.564",
+  "long": "-46.655",
+  "qtt_order": "465",
+  "avg_ticket": "57.37"
+}, {
+  "customer_id": "f4ab268a-8d18-448d-b618-c6d220221d28",
+  "lat": "-23.562",
+  "long": "-46.676",
+  "qtt_order": "452",
+  "avg_ticket": "36.31"
+}, {
+  "customer_id": "608c7e7f-9d85-48e4-ae06-1d94d1d7c53b",
+  "lat": "-23.559",
+  "long": "-46.663",
+  "qtt_order": "440",
+  "avg_ticket": "46.22"
+}, {
+  "customer_id": "12a7776d-ac39-4653-a0b1-5efd461ae634",
+  "lat": "-23.553",
+  "long": "-46.545",
+  "qtt_order": "435",
+  "avg_ticket": "28.47"
+}, {
+  "customer_id": "6a197d74-ea5f-493c-8fbb-e15bed515f63",
+  "lat": "-23.508",
+  "long": "-46.667",
+  "qtt_order": "431",
+  "avg_ticket": "35.74"
+}, {
+  "customer_id": "ea04017d-9360-4cba-974c-1b24172d6ced",
+  "lat": "-23.548",
+  "long": "-46.659",
+  "qtt_order": "416",
+  "avg_ticket": "17.24"
+}, {
+  "customer_id": "1482131a-f52a-4254-bf4f-6f7bcf984601",
+  "lat": "-23.573",
+  "long": "-46.651",
+  "qtt_order": "415",
+  "avg_ticket": "68.63"
+}, {
+  "customer_id": "3a566009-d53e-48bc-8894-97b6a22f760f",
+  "lat": "-23.474",
+  "long": "-46.744",
+  "qtt_order": "411",
+  "avg_ticket": "48.21"
+}, {
+  "customer_id": "e0021625-b9db-4c68-9dca-b5c62d9112f1",
+  "lat": "-23.571",
+  "long": "-46.743",
+  "qtt_order": "410",
+  "avg_ticket": "33.96"
+}, {
+  "customer_id": "181bb3ea-49ca-4b61-997b-ac3f6c43113f",
+  "lat": "-23.628",
+  "long": "-46.64",
+  "qtt_order": "409",
+  "avg_ticket": "39.54"
+}, {
+  "customer_id": "368b9e30-44a7-4584-864f-2f94625dfdeb",
+  "lat": "-23.622",
+  "long": "-46.735",
+  "qtt_order": "404",
+  "avg_ticket": "33.97"
+}, {
+  "customer_id": "80168650-8ab4-46cf-98b5-2e68385e411d",
+  "lat": "-23.529",
+  "long": "-46.558",
+  "qtt_order": "403",
+  "avg_ticket": "54.52"
+}, {
+  "customer_id": "52e23abe-05bf-4b56-996d-5591010071bb",
+  "lat": "-23.566",
+  "long": "-46.558",
+  "qtt_order": "395",
+  "avg_ticket": "50.95"
+}, {
+  "customer_id": "d1c426a0-fd7d-4185-b65f-9ae29d066af5",
+  "lat": "-23.568",
+  "long": "-46.697",
+  "qtt_order": "395",
+  "avg_ticket": "30.56"
+}, {
+  "customer_id": "268bfc07-82e5-4b9b-a81b-0cb8038601c3",
+  "lat": "-23.666",
+  "long": "-46.643",
+  "qtt_order": "378",
+  "avg_ticket": "22.75"
+}, {
+  "customer_id": "25b2b847-4a93-4658-a1f1-cfd7ba5fcbfe",
+  "lat": "-23.545",
+  "long": "-46.696",
+  "qtt_order": "377",
+  "avg_ticket": "43.5"
+}, {
+  "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
+  "lat": "-23.564",
+  "long": "-46.647",
+  "qtt_order": "377",
+  "avg_ticket": "29.36"
+}, {
+  "customer_id": "a130d338-fd35-42d6-8d01-3d9ec8c0611d",
+  "lat": "-23.67",
+  "long": "-46.709",
+  "qtt_order": "375",
+  "avg_ticket": "16.09"
+}, {
+  "customer_id": "61974c0d-cf66-4fad-84a8-0f011d7326b3",
+  "lat": "-23.553",
+  "long": "-46.652",
+  "qtt_order": "372",
+  "avg_ticket": "39.31"
+}, {
+  "customer_id": "397d8240-8d0e-4968-9696-686c6f62a74d",
+  "lat": "-23.55",
+  "long": "-46.639",
+  "qtt_order": "369",
+  "avg_ticket": "35.33"
+}, {
+  "customer_id": "17ac8e44-ffd7-4478-90e8-d18ae94f8456",
+  "lat": "-23.556",
+  "long": "-46.599",
+  "qtt_order": "368",
+  "avg_ticket": "25.25"
+}, {
+  "customer_id": "84cec787-78ce-4f7b-92a0-72acdf292a30",
+  "lat": "-23.552",
+  "long": "-46.652",
+  "qtt_order": "366",
+  "avg_ticket": "41.19"
+}, {
+  "customer_id": "eb7408c1-6e58-4b68-ab43-b85e98d7faad",
+  "lat": "-23.518",
+  "long": "-46.653",
+  "qtt_order": "365",
+  "avg_ticket": "75.28"
+}, {
+  "customer_id": "e5dff67d-c9ea-4b1e-a3bf-595bf60ef44f",
+  "lat": "-23.511",
+  "long": "-46.612",
+  "qtt_order": "359",
+  "avg_ticket": "73.3"
+}]

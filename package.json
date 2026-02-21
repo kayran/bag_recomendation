@@ -1,0 +1,24 @@
+{
+  "name": "bag_recomendation",
+  "version": "0.0.1",
+  "description": "A Sample project to recomend bags for users due the availability and historic of orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayran/bag_recomendation.git"
+  },
+  "keywords": [
+    "TensorFlow",
+    "Recomendation",
+    "Javascript"
+  ],
+  "author": "Kayran dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayran/bag_recomendation/issues"
+  },
+  "homepage": "https://github.com/kayran/bag_recomendation#readme"
+}
