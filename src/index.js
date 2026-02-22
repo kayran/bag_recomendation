@@ -20,47 +20,46 @@ const customerView = new CustomerView();
 const bagView = new BagView();
 const modelView = new ModelView();
 const tfVisorView = new TFVisorView();
-const mlWorker = new Worker('/src/workers/modelTrainingWorker.js', { type: 'module' });
+const mlWorker = new Worker('/src/workers/modelTrainingWorker.js', {
+  type: 'module',
+});
 
 // Set up worker message handler
 const w = WorkerController.init({
-    worker: mlWorker,
-    events: Events,
+  worker: mlWorker,
+  events: Events,
 });
 
 // Initial training trigger
 const [customers, bags] = await Promise.all([
-    customerService.getCustomers(),
-    bagService.getBags()
+  customerService.getCustomers(),
+  bagService.getBags(),
 ]);
 w.triggerTrain({ customers, bags });
 
-
 ModelController.init({
-    modelView,
-    userService: customerService,
-    bagService: bagService,
-    events: Events,
+  modelView,
+  userService: customerService,
+  bagService: bagService,
+  events: Events,
 });
 
 TFVisorController.init({
-    tfVisorView,
-    events: Events,
+  tfVisorView,
+  events: Events,
 });
 
 BagController.init({
-    bagView,
-    userService: customerService,
-    bagService,
-    events: Events,
+  bagView,
+  userService: customerService,
+  bagService,
+  events: Events,
 });
-
 
 const userController = CustomerController.init({
-    userView: customerView,
-    userService: customerService,
-    events: Events,
+  userView: customerView,
+  userService: customerService,
+  events: Events,
 });
-
 
 userController.renderCustomers();

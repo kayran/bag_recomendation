@@ -1,34 +1,29 @@
 export class TFVisorController {
-    #tfVisorView;
-    #events;
+  #tfVisorView;
+  #events;
 
-    constructor({
-        tfVisorView,
-        events,
-    }) {
-        this.#tfVisorView = tfVisorView;
-        this.#events = events;
+  constructor({ tfVisorView, events }) {
+    this.#tfVisorView = tfVisorView;
+    this.#events = events;
 
-        this.init();
-    }
+    this.init();
+  }
 
-    static init(deps) {
-        return new TFVisorController(deps);
-    }
+  static init(deps) {
+    return new TFVisorController(deps);
+  }
 
-    async init() {
-        this.setupCallbacks();
-    }
+  async init() {
+    this.setupCallbacks();
+  }
 
-    setupCallbacks() {
-        this.#events.onTrainModel(() => {
-            if (this.#tfVisorView.resetDashboard) this.#tfVisorView.resetDashboard();
-        });
+  setupCallbacks() {
+    this.#events.onTrainModel(() => {
+      if (this.#tfVisorView.resetDashboard) this.#tfVisorView.resetDashboard();
+    });
 
-        this.#events.onTFVisLogs(
-            (log) => {
-                this.#tfVisorView.handleTrainingLog(log);
-            }
-        );
-    }
+    this.#events.onTFVisLogs((log) => {
+      this.#tfVisorView.handleTrainingLog(log);
+    });
+  }
 }

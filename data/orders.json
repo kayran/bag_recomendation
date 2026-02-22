@@ -2,7 +2,7 @@
   {
     "order_uuid": "4c8f3d88-abb5-450f-bc12-074100e842d2",
     "price": "30.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "b2031d0a-ccaf-48f2-8912-a06b4f5bb5d8",
     "partner_id": "fda33d84-55db-4b79-b58b-807009ef0f3d",
@@ -17,7 +17,7 @@
   {
     "order_uuid": "174c8db7-707f-43bd-9d3a-0b3eacb39db9",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "1a0d84df-f3f7-4995-b4bc-4502ce326b3b",
@@ -32,7 +32,7 @@
   {
     "order_uuid": "174c8db7-707f-43bd-9d3a-0b3eacb39db9",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "1a0d84df-f3f7-4995-b4bc-4502ce326b3b",
@@ -47,7 +47,7 @@
   {
     "order_uuid": "174c8db7-707f-43bd-9d3a-0b3eacb39db9",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "1a0d84df-f3f7-4995-b4bc-4502ce326b3b",
@@ -62,7 +62,7 @@
   {
     "order_uuid": "0a1d06a9-6205-42a1-a3a1-9d76d2db3976",
     "price": "10.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Confeitaria",
     "customer_id": "db7c8f47-fe17-4ec2-b010-25b04024c6ce",
     "partner_id": "e589b60f-1858-4a3b-95b8-3e227d49ada5",
@@ -77,7 +77,7 @@
   {
     "order_uuid": "0a1d06a9-6205-42a1-a3a1-9d76d2db3976",
     "price": "15.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Confeitaria",
     "customer_id": "db7c8f47-fe17-4ec2-b010-25b04024c6ce",
     "partner_id": "e589b60f-1858-4a3b-95b8-3e227d49ada5",
@@ -92,7 +92,7 @@
   {
     "order_uuid": "9268c521-0e9c-45c6-8e08-2eff1fbbb4e3",
     "price": "15.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "f65f72e1-7e6d-4b91-9c9e-62f0c8b9eca9",
     "partner_id": "917616c0-a640-47c9-a14b-62800e204740",
@@ -107,7 +107,7 @@
   {
     "order_uuid": "360f5177-0158-4548-963a-860e62719d54",
     "price": "45.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "8796b4f2-e2d0-4b2b-9392-89fb15967622",
     "partner_id": "2ebe815a-a55a-4375-901a-548d0b433f10",
@@ -122,7 +122,7 @@
   {
     "order_uuid": "82e49c66-ee7e-4d07-adf4-50e3a3361672",
     "price": "20.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "397d8240-8d0e-4968-9696-686c6f62a74d",
     "partner_id": "a7159c9e-f0c3-4f5f-90c6-5d111dc2d625",
@@ -137,7 +137,7 @@
   {
     "order_uuid": "013e642d-4834-4d17-8363-601d217543fa",
     "price": "35",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Diversos",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "5892a1b3-bd22-4f59-b65e-2173da97eb7e",
@@ -152,7 +152,7 @@
   {
     "order_uuid": "45849b54-e88a-4c35-951f-d241edc14448",
     "price": "55.9",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Bomboniere",
     "customer_id": "181bb3ea-49ca-4b61-997b-ac3f6c43113f",
     "partner_id": "2f1b9389-5a1b-4447-8f25-a875d6567a2c",
@@ -167,7 +167,7 @@
   {
     "order_uuid": "fb8f034a-4dff-43c5-9266-22f80573ea45",
     "price": "15.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Diversos",
     "customer_id": "8796b4f2-e2d0-4b2b-9392-89fb15967622",
     "partner_id": "cb826625-d286-4901-83aa-9cfc24395033",
@@ -182,7 +182,7 @@
   {
     "order_uuid": "fb8f034a-4dff-43c5-9266-22f80573ea45",
     "price": "15.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Diversos",
     "customer_id": "8796b4f2-e2d0-4b2b-9392-89fb15967622",
     "partner_id": "cb826625-d286-4901-83aa-9cfc24395033",
@@ -197,7 +197,7 @@
   {
     "order_uuid": "fb8f034a-4dff-43c5-9266-22f80573ea45",
     "price": "15.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Diversos",
     "customer_id": "8796b4f2-e2d0-4b2b-9392-89fb15967622",
     "partner_id": "cb826625-d286-4901-83aa-9cfc24395033",
@@ -212,7 +212,7 @@
   {
     "order_uuid": "3be69fe2-09f9-47fc-b824-007dfff6c89e",
     "price": "45.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "9b658977-7c3b-46f5-bb81-7c061f8ea495",
     "partner_id": "cffa2db3-4477-4bc8-a791-563cb49f9a35",
@@ -227,7 +227,7 @@
   {
     "order_uuid": "9120f0a4-d58f-47fe-8b0b-f35294d3c96a",
     "price": "32.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Supermercado",
     "customer_id": "d1c426a0-fd7d-4185-b65f-9ae29d066af5",
     "partner_id": "c5e4c12a-ff58-4c8f-8b05-64e042e10493",
@@ -242,7 +242,7 @@
   {
     "order_uuid": "9380f70b-3a18-4042-9f99-6e8516b37ea4",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "5892a1b3-bd22-4f59-b65e-2173da97eb7e",
@@ -257,7 +257,7 @@
   {
     "order_uuid": "66cfc7d8-c2a9-4b11-a958-e58c2c1835b0",
     "price": "57.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "12a7776d-ac39-4653-a0b1-5efd461ae634",
     "partner_id": "bfd63aeb-e413-4618-ae06-4b8bf375001c",
@@ -272,7 +272,7 @@
   {
     "order_uuid": "66cfc7d8-c2a9-4b11-a958-e58c2c1835b0",
     "price": "69.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "12a7776d-ac39-4653-a0b1-5efd461ae634",
     "partner_id": "bfd63aeb-e413-4618-ae06-4b8bf375001c",
@@ -287,7 +287,7 @@
   {
     "order_uuid": "66cfc7d8-c2a9-4b11-a958-e58c2c1835b0",
     "price": "33.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "12a7776d-ac39-4653-a0b1-5efd461ae634",
     "partner_id": "bfd63aeb-e413-4618-ae06-4b8bf375001c",
@@ -302,7 +302,7 @@
   {
     "order_uuid": "4226a3e8-36a7-41c6-b041-9458db9586d1",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
     "partner_id": "ea78c052-c0a4-41d8-a79b-6c3807cf5359",
@@ -317,7 +317,7 @@
   {
     "order_uuid": "4226a3e8-36a7-41c6-b041-9458db9586d1",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
     "partner_id": "ea78c052-c0a4-41d8-a79b-6c3807cf5359",
@@ -332,7 +332,7 @@
   {
     "order_uuid": "945452cd-eefa-4431-9b4e-e224f02d7851",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
     "partner_id": "92861a2b-d618-4568-a14d-c21dee845f1f",
@@ -347,7 +347,7 @@
   {
     "order_uuid": "945452cd-eefa-4431-9b4e-e224f02d7851",
     "price": "15.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
     "partner_id": "92861a2b-d618-4568-a14d-c21dee845f1f",
@@ -362,7 +362,7 @@
   {
     "order_uuid": "f8d40384-d1f9-44e6-89f5-3ac569f90eed",
     "price": "1",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Bomboniere",
     "customer_id": "db7c8f47-fe17-4ec2-b010-25b04024c6ce",
     "partner_id": "42638b1a-772f-4303-bf6b-1997ac8b9e36",
@@ -377,7 +377,7 @@
   {
     "order_uuid": "e52002dc-f3db-4596-9f54-79a5f9ec5862",
     "price": "10.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Diversos",
     "customer_id": "96c042fc-9104-4d48-90ef-7ae485d6b2bf",
     "partner_id": "fc11fd8f-2600-4f16-9930-dafdb3922281",
@@ -392,7 +392,7 @@
   {
     "order_uuid": "5fee209d-9fea-458d-b2e9-67d15c3d8b3a",
     "price": "100.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Confeitaria",
     "customer_id": "e652af6e-3d8b-4060-9c79-d2a0d4dee44d",
     "partner_id": "eeb74f4e-468f-4260-b868-ed27e490435c",
@@ -407,7 +407,7 @@
   {
     "order_uuid": "0213c6d3-c2f2-403f-8263-a6337c66b1a8",
     "price": "35",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Diversos",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "5892a1b3-bd22-4f59-b65e-2173da97eb7e",
@@ -422,7 +422,7 @@
   {
     "order_uuid": "f38e41e5-a703-4a32-8bec-5ee51e5742a4",
     "price": "45.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Diversos",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "5892a1b3-bd22-4f59-b65e-2173da97eb7e",
@@ -437,7 +437,7 @@
   {
     "order_uuid": "13818aba-851e-4d54-a189-89f7dec8a4a8",
     "price": "44.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Japonesa",
     "customer_id": "613cc306-f5cf-4234-a834-ee0a023e0b52",
     "partner_id": "a5aab4c2-81df-4ae9-9c65-ebff11aae11d",
@@ -452,7 +452,7 @@
   {
     "order_uuid": "b14f3d80-821f-47c0-a23f-084a13739270",
     "price": "30.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Empório",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "ef684420-0838-4f80-847b-c61b19e8764c",
@@ -467,7 +467,7 @@
   {
     "order_uuid": "621d8d96-ef4f-473c-9b8a-0bd723e739b8",
     "price": "15.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "52e23abe-05bf-4b56-996d-5591010071bb",
     "partner_id": "37027345-9d07-4e56-a9d2-b9711c1a551e",
@@ -482,7 +482,7 @@
   {
     "order_uuid": "621d8d96-ef4f-473c-9b8a-0bd723e739b8",
     "price": "15.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "52e23abe-05bf-4b56-996d-5591010071bb",
     "partner_id": "37027345-9d07-4e56-a9d2-b9711c1a551e",
@@ -497,7 +497,7 @@
   {
     "order_uuid": "fdb2ba1c-ab9b-4e0b-9e27-ea3007dd6c18",
     "price": "20.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Restaurante",
     "customer_id": "d3c20673-4afb-45f6-9377-704ee5275b3b",
     "partner_id": "5892a1b3-bd22-4f59-b65e-2173da97eb7e",
@@ -512,7 +512,7 @@
   {
     "order_uuid": "478f5e1d-897b-4895-81ea-05081e99576e",
     "price": "10.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Empório",
     "customer_id": "e9780156-90e0-4308-8e74-91406c5165f1",
     "partner_id": "cbf94e5c-973c-4821-8be6-379000b2e4f8",
@@ -527,7 +527,7 @@
   {
     "order_uuid": "478f5e1d-897b-4895-81ea-05081e99576e",
     "price": "10.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Empório",
     "customer_id": "e9780156-90e0-4308-8e74-91406c5165f1",
     "partner_id": "cbf94e5c-973c-4821-8be6-379000b2e4f8",
@@ -542,7 +542,7 @@
   {
     "order_uuid": "532bd18a-a50d-44b2-96bc-dfe907e5c96e",
     "price": "10.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Confeitaria",
     "customer_id": "2d7aefe4-344c-4887-a16f-671f469f143a",
     "partner_id": "b5e454b8-c6b7-457d-8e02-8af35b6cb3e2",
@@ -557,7 +557,7 @@
   {
     "order_uuid": "07cd0bdc-653d-4a34-a727-a5220c4c8bd6",
     "price": "12.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Cafeteria",
     "customer_id": "3679ff08-54de-42d0-81c6-055eb3d72cdd",
     "partner_id": "b1170ff6-3a89-4c66-b2d6-f236ad4a08dd",
@@ -572,7 +572,7 @@
   {
     "order_uuid": "fe22bbd4-5fc1-43a1-b865-830ed92cc56b",
     "price": "10.99",
-    "type": "SALGADO",
+    "type": "SAVORY",
     "category": "Hamburgueria",
     "customer_id": "d1c426a0-fd7d-4185-b65f-9ae29d066af5",
     "partner_id": "ac8fb6ee-1132-4da3-8f19-a2045710bb3a",
@@ -587,7 +587,7 @@
   {
     "order_uuid": "157e6f00-5976-4110-b404-2a90eacc4769",
     "price": "15.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Confeitaria",
     "customer_id": "f65f72e1-7e6d-4b91-9c9e-62f0c8b9eca9",
     "partner_id": "1750332d-decf-46b8-a8a9-d5e483d59483",
@@ -602,7 +602,7 @@
   {
     "order_uuid": "25aaabed-bd0b-4458-8765-051dd3c60b3c",
     "price": "22.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Hotel",
     "customer_id": "613cc306-f5cf-4234-a834-ee0a023e0b52",
     "partner_id": "972b8c92-6f5b-4d5c-ac65-8240026ecca0",
@@ -617,7 +617,7 @@
   {
     "order_uuid": "94fd280b-e53a-4199-9567-f6620358731a",
     "price": "20.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "9b658977-7c3b-46f5-bb81-7c061f8ea495",
     "partner_id": "cffa2db3-4477-4bc8-a791-563cb49f9a35",
@@ -632,7 +632,7 @@
   {
     "order_uuid": "94fd280b-e53a-4199-9567-f6620358731a",
     "price": "15.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Padaria",
     "customer_id": "9b658977-7c3b-46f5-bb81-7c061f8ea495",
     "partner_id": "cffa2db3-4477-4bc8-a791-563cb49f9a35",
@@ -647,7 +647,7 @@
   {
     "order_uuid": "48b3f851-db09-490c-aa25-62d54d802c3b",
     "price": "20.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Padaria",
     "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
     "partner_id": "feac92b4-6b71-4d16-8500-483cac0f1e92",
@@ -662,7 +662,7 @@
   {
     "order_uuid": "8876f8b7-a85b-48fc-b2be-89163ba56681",
     "price": "45.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "9b658977-7c3b-46f5-bb81-7c061f8ea495",
     "partner_id": "cffa2db3-4477-4bc8-a791-563cb49f9a35",
@@ -677,7 +677,7 @@
   {
     "order_uuid": "c270a64c-1a17-4b13-badc-ffc5360aec44",
     "price": "29.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Padaria",
     "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
     "partner_id": "b0f7d788-130d-435c-abf3-b4205b3458d4",
@@ -692,7 +692,7 @@
   {
     "order_uuid": "db83cbdf-07cd-455e-ad63-f3e9109906ea",
     "price": "44.99",
-    "type": "DOCE",
+    "type": "SWEET",
     "category": "Padaria",
     "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
     "partner_id": "b0f7d788-130d-435c-abf3-b4205b3458d4",
@@ -707,7 +707,7 @@
   {
     "order_uuid": "377cc85b-900b-4943-9669-9bd1394f0ddf",
     "price": "29.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
     "partner_id": "e20e2594-4ed0-447a-a33f-e745e94f6ef4",
@@ -722,7 +722,7 @@
   {
     "order_uuid": "377cc85b-900b-4943-9669-9bd1394f0ddf",
     "price": "29.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Diversos",
     "customer_id": "dc4bada6-de43-4e68-8283-3eaa311bd67a",
     "partner_id": "e20e2594-4ed0-447a-a33f-e745e94f6ef4",
@@ -737,7 +737,7 @@
   {
     "order_uuid": "21caafba-730c-405f-9088-9ce61a9adbe5",
     "price": "44.99",
-    "type": "MISTO",
+    "type": "MIXED",
     "category": "Padaria",
     "customer_id": "a518fc98-4745-49c4-9825-f43b4eed8aaf",
     "partner_id": "681d4e77-9b41-4923-8199-48e53cc924f8",
