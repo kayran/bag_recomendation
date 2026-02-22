@@ -1,451 +1,552 @@
-[{
-  "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
-  "segment_id": "4",
-  "segment_name": "Restaurante",
-  "lat": "-23.594",
-  "long": "-46.641",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "57"
-}, {
-  "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
-  "segment_id": "4",
-  "segment_name": "Restaurante",
-  "lat": "-23.594",
-  "long": "-46.641",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "36"
-}, {
-  "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
-  "segment_id": "4",
-  "segment_name": "Restaurante",
-  "lat": "-23.594",
-  "long": "-46.641",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "28.5"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "SAVORY",
-  "bag_category": "Diversos",
-  "bag_price": "35.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "50.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "24.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "35.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "35.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "SAVORY",
-  "bag_category": "Diversos",
-  "bag_price": "50.99"
-}, {
-  "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.478",
-  "long": "-46.609",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "50.99"
-}, {
-  "partner_id": "a0076da2-fd81-4b98-8b57-f6c776a3c1cb",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.637",
-  "long": "-46.739",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "18.99"
-}, {
-  "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
-  "segment_id": "2",
-  "segment_name": "Padaria",
-  "lat": "-23.523",
-  "long": "-46.707",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "24.99"
-}, {
-  "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
-  "segment_id": "2",
-  "segment_name": "Padaria",
-  "lat": "-23.523",
-  "long": "-46.707",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "24.99"
-}, {
-  "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
-  "segment_id": "2",
-  "segment_name": "Padaria",
-  "lat": "-23.523",
-  "long": "-46.707",
-  "bag_type": "SAVORY",
-  "bag_category": "Diversos",
-  "bag_price": "24.99"
-}, {
-  "partner_id": "a381a642-428f-4915-9738-3de9d322ee12",
-  "segment_id": "8",
-  "segment_name": "Cafeteria",
-  "lat": "-23.614",
-  "long": "-46.622",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "18.99"
-}, {
-  "partner_id": "60a80f1c-9183-4fa6-8929-74d479cee29c",
-  "segment_id": "11",
-  "segment_name": "Salgaderia",
-  "lat": "-23.554",
-  "long": "-46.751",
-  "bag_type": "MIXED",
-  "bag_category": "Diversos",
-  "bag_price": "18.99"
-}, {
-  "partner_id": "60a80f1c-9183-4fa6-8929-74d479cee29c",
-  "segment_id": "11",
-  "segment_name": "Salgaderia",
-  "lat": "-23.554",
-  "long": "-46.751",
-  "bag_type": "SAVORY",
-  "bag_category": "Diversos",
-  "bag_price": "18.99"
-}, {
-  "partner_id": "0d5b3a07-75b5-49b7-8ff7-1b9ade875ac8",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.572",
-  "long": "-46.696",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "37.95"
-}, {
-  "partner_id": "0d5b3a07-75b5-49b7-8ff7-1b9ade875ac8",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.572",
-  "long": "-46.696",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "37.45"
-}, {
-  "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.591",
-  "long": "-46.62",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "24.75"
-}, {
-  "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.591",
-  "long": "-46.62",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "27.3"
-}, {
-  "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.591",
-  "long": "-46.62",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "28.3"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "24.2"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "24.2"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "22.5"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "23.75"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "28.95"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "25.45"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "29.25"
-}, {
-  "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.543",
-  "long": "-46.676",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "26.4"
-}, {
-  "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.554",
-  "long": "-46.578",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "33.84"
-}, {
-  "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.554",
-  "long": "-46.578",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "28.4"
-}, {
-  "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.554",
-  "long": "-46.578",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "26.79"
-}, {
-  "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.525",
-  "long": "-46.625",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "35.54"
-}, {
-  "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.525",
-  "long": "-46.625",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "26.34"
-}, {
-  "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.525",
-  "long": "-46.625",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "23.34"
-}, {
-  "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.525",
-  "long": "-46.625",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "29.9"
-}, {
-  "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.482",
-  "long": "-46.645",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "23.95"
-}, {
-  "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.482",
-  "long": "-46.645",
-  "bag_type": "SWEET",
-  "bag_category": "Mercearia",
-  "bag_price": "24.65"
-}, {
-  "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.482",
-  "long": "-46.645",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "24.8"
-}, {
-  "partner_id": "c7c17e6c-22d2-42ec-9199-580b8973b1cc",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.613",
-  "long": "-46.661",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "23.15"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "24.3"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "24.35"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "23.25"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "27.75"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "23.8"
-}, {
-  "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
-  "segment_id": "10",
-  "segment_name": "Mercado",
-  "lat": "-23.565",
-  "long": "-46.691",
-  "bag_type": "MIXED",
-  "bag_category": "Mercearia",
-  "bag_price": "31.3"
-}, {
-  "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.537",
-  "long": "-46.64",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "59.95"
-}, {
-  "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.537",
-  "long": "-46.64",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "59.95"
-}, {
-  "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
-  "segment_id": "1",
-  "segment_name": "Doceria",
-  "lat": "-23.537",
-  "long": "-46.64",
-  "bag_type": "SWEET",
-  "bag_category": "Diversos",
-  "bag_price": "35.97"
-}]
+[
+  {
+    "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
+    "segment_id": "4",
+    "segment_name": "Restaurante",
+    "lat": "-23.594",
+    "long": "-46.641",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "57",
+    "name": "Sabor do Brasil"
+  },
+  {
+    "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
+    "segment_id": "4",
+    "segment_name": "Restaurante",
+    "lat": "-23.594",
+    "long": "-46.641",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "36",
+    "name": "Sabor do Brasil"
+  },
+  {
+    "partner_id": "80a2b23f-321f-4853-a1cb-3c2f00f66298",
+    "segment_id": "4",
+    "segment_name": "Restaurante",
+    "lat": "-23.594",
+    "long": "-46.641",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "28.5",
+    "name": "Sabor do Brasil"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "SAVORY",
+    "bag_category": "Diversos",
+    "bag_price": "35.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "50.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "24.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "35.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "35.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "SAVORY",
+    "bag_category": "Diversos",
+    "bag_price": "50.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "af712d81-a844-4f98-82d8-9636c9195152",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.478",
+    "long": "-46.609",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "50.99",
+    "name": "Essência do Café"
+  },
+  {
+    "partner_id": "a0076da2-fd81-4b98-8b57-f6c776a3c1cb",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.637",
+    "long": "-46.739",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "18.99",
+    "name": "Fábrica de Delícias"
+  },
+  {
+    "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
+    "segment_id": "2",
+    "segment_name": "Padaria",
+    "lat": "-23.523",
+    "long": "-46.707",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "24.99",
+    "name": "Trigo de Prata"
+  },
+  {
+    "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
+    "segment_id": "2",
+    "segment_name": "Padaria",
+    "lat": "-23.523",
+    "long": "-46.707",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "24.99",
+    "name": "Trigo de Prata"
+  },
+  {
+    "partner_id": "82a71e7a-766f-4f49-8776-dda8065fb5bf",
+    "segment_id": "2",
+    "segment_name": "Padaria",
+    "lat": "-23.523",
+    "long": "-46.707",
+    "bag_type": "SAVORY",
+    "bag_category": "Diversos",
+    "bag_price": "24.99",
+    "name": "Trigo de Prata"
+  },
+  {
+    "partner_id": "a381a642-428f-4915-9738-3de9d322ee12",
+    "segment_id": "8",
+    "segment_name": "Cafeteria",
+    "lat": "-23.614",
+    "long": "-46.622",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "18.99",
+    "name": "Cafeteria da Praça"
+  },
+  {
+    "partner_id": "60a80f1c-9183-4fa6-8929-74d479cee29c",
+    "segment_id": "11",
+    "segment_name": "Salgaderia",
+    "lat": "-23.554",
+    "long": "-46.751",
+    "bag_type": "MIXED",
+    "bag_category": "Diversos",
+    "bag_price": "18.99",
+    "name": "Forno & Fogão"
+  },
+  {
+    "partner_id": "60a80f1c-9183-4fa6-8929-74d479cee29c",
+    "segment_id": "11",
+    "segment_name": "Salgaderia",
+    "lat": "-23.554",
+    "long": "-46.751",
+    "bag_type": "SAVORY",
+    "bag_category": "Diversos",
+    "bag_price": "18.99",
+    "name": "Forno & Fogão"
+  },
+  {
+    "partner_id": "0d5b3a07-75b5-49b7-8ff7-1b9ade875ac8",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.572",
+    "long": "-46.696",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "37.95",
+    "name": "Mestre Confeiteiro"
+  },
+  {
+    "partner_id": "0d5b3a07-75b5-49b7-8ff7-1b9ade875ac8",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.572",
+    "long": "-46.696",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "37.45",
+    "name": "Mestre Confeiteiro"
+  },
+  {
+    "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.591",
+    "long": "-46.62",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "24.75",
+    "name": "Mercado Real"
+  },
+  {
+    "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.591",
+    "long": "-46.62",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "27.3",
+    "name": "Mercado Real"
+  },
+  {
+    "partner_id": "2ce7a833-85f0-4402-964e-d47d2fce5686",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.591",
+    "long": "-46.62",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "28.3",
+    "name": "Mercado Real"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "24.2",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "24.2",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "22.5",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "23.75",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "28.95",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "25.45",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "29.25",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "e6265d13-ccdf-40bf-ace6-1f23552812dd",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.543",
+    "long": "-46.676",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "26.4",
+    "name": "Super São José"
+  },
+  {
+    "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.554",
+    "long": "-46.578",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "33.84",
+    "name": "Pratice Market"
+  },
+  {
+    "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.554",
+    "long": "-46.578",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "28.4",
+    "name": "Pratice Market"
+  },
+  {
+    "partner_id": "85db9a58-97d8-4761-b517-27d44bbadd6e",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.554",
+    "long": "-46.578",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "26.79",
+    "name": "Pratice Market"
+  },
+  {
+    "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.525",
+    "long": "-46.625",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "35.54",
+    "name": "Mercado Compra Certa"
+  },
+  {
+    "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.525",
+    "long": "-46.625",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "26.34",
+    "name": "Mercado Compra Certa"
+  },
+  {
+    "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.525",
+    "long": "-46.625",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "23.34",
+    "name": "Mercado Compra Certa"
+  },
+  {
+    "partner_id": "be36433d-692f-4907-ace3-7e2cb3608181",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.525",
+    "long": "-46.625",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "29.9",
+    "name": "Mercado Compra Certa"
+  },
+  {
+    "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.482",
+    "long": "-46.645",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "23.95",
+    "name": "Vila de Ofertas"
+  },
+  {
+    "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.482",
+    "long": "-46.645",
+    "bag_type": "SWEET",
+    "bag_category": "Mercearia",
+    "bag_price": "24.65",
+    "name": "Vila de Ofertas"
+  },
+  {
+    "partner_id": "491567e8-1943-44b3-8825-1ef26df02fad",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.482",
+    "long": "-46.645",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "24.8",
+    "name": "Vila de Ofertas"
+  },
+  {
+    "partner_id": "c7c17e6c-22d2-42ec-9199-580b8973b1cc",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.613",
+    "long": "-46.661",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "23.15",
+    "name": "Superfácil"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "24.3",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "24.35",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "23.25",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "27.75",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "23.8",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "aae79a92-e43e-4349-9813-80a426d7fdb3",
+    "segment_id": "10",
+    "segment_name": "Mercado",
+    "lat": "-23.565",
+    "long": "-46.691",
+    "bag_type": "MIXED",
+    "bag_category": "Mercearia",
+    "bag_price": "31.3",
+    "name": "Mercado Compra Certa da Praça"
+  },
+  {
+    "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.537",
+    "long": "-46.64",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "59.95",
+    "name": "Universo dos Doces"
+  },
+  {
+    "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.537",
+    "long": "-46.64",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "59.95",
+    "name": "Universo dos Doces"
+  },
+  {
+    "partner_id": "37411ed7-666f-49b5-8fdb-3f9add851ed3",
+    "segment_id": "1",
+    "segment_name": "Doceria",
+    "lat": "-23.537",
+    "long": "-46.64",
+    "bag_type": "SWEET",
+    "bag_category": "Diversos",
+    "bag_price": "35.97",
+    "name": "Universo dos Doces"
+  }
+]
