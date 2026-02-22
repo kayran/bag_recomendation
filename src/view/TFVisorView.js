@@ -13,11 +13,13 @@ export class TFVisorView extends View {
     this.#logs = [];
     this.#lossPoints = [];
     this.#accPoints = [];
+    this.#isVisOpen = false;
   }
 
   handleTrainingLog(log) {
     if (!this.#isVisOpen) {
-      tfvis.visor().open();
+      const bottomSheet = document.getElementById('tfvisBottomSheet');
+      if (bottomSheet) bottomSheet.style.display = 'block';
       this.#isVisOpen = true;
     }
 
@@ -26,32 +28,28 @@ export class TFVisorView extends View {
     this.#accPoints.push({ x: epoch, y: accuracy });
     this.#logs.push(log);
 
-    tfvis.render.linechart(
-      {
-        name: 'Precisão do Modelo',
-        tab: 'Treinamento',
-        style: { display: 'inline-block', width: '49%' },
-      },
-      { values: this.#accPoints, series: ['precisão'] },
-      {
-        xLabel: 'Época (Ciclos de Treinamento)',
-        yLabel: 'Precisão (%)',
-        height: 300,
-      }
-    );
+    const accContainer = document.getElementById('tfvisAccChart');
+    if (accContainer) {
+      tfvis.render.linechart(
+        accContainer,
+        { values: this.#accPoints, series: ['precisão'] },
+        {
+          xLabel: 'Época (Ciclos de Treinamento)',
+          yLabel: 'Precisão (%)',
+        }
+      );
+    }
 
-    tfvis.render.linechart(
-      {
-        name: 'Erro de Treinamento',
-        tab: 'Treinamento',
-        style: { display: 'inline-block', width: '49%' },
-      },
-      { values: this.#lossPoints, series: ['erros'] },
-      {
-        xLabel: 'Época (Ciclos de Treinamento)',
-        yLabel: 'Valor do Erro',
-        height: 300,
-      }
-    );
+    const lossContainer = document.getElementById('tfvisLossChart');
+    if (lossContainer) {
+      tfvis.render.linechart(
+        lossContainer,
+        { values: this.#lossPoints, series: ['erros'] },
+        {
+          xLabel: 'Época (Ciclos de Treinamento)',
+          yLabel: 'Valor do Erro',
+        }
+      );
+    }
   }
 }

@@ -8,6 +8,9 @@ export class ModelView extends View {
     '#allCustomersPurchasesList'
   );
   #runRecommendationBtn = document.querySelector('#runRecommendationBtn');
+  #openTfVisBtn = document.querySelector('#openTfVisBtn');
+  #closeTfVisBtn = document.querySelector('#closeTfVisBtn');
+  #tfvisBottomSheet = document.querySelector('#tfvisBottomSheet');
   #onTrainModel;
   #onRunRecommendation;
 
@@ -30,6 +33,20 @@ export class ModelView extends View {
     this.#runRecommendationBtn.addEventListener('click', () => {
       if (this.#onRunRecommendation) this.#onRunRecommendation();
     });
+
+    this.#openTfVisBtn.addEventListener('click', () => {
+      if (this.#tfvisBottomSheet) {
+        this.#tfvisBottomSheet.style.display = 'block';
+      }
+    });
+
+    if (this.#closeTfVisBtn) {
+      this.#closeTfVisBtn.addEventListener('click', () => {
+        if (this.#tfvisBottomSheet) {
+          this.#tfvisBottomSheet.style.display = 'none';
+        }
+      });
+    }
 
     this.#purchasesDiv.addEventListener('click', () => {
       const purchasesList = this.#allCustomersPurchasesList;
@@ -67,13 +84,13 @@ export class ModelView extends View {
       .map((customer) => {
         const ordersHtml = customer.purchases
           .map((order) => {
-            return `<span class="badge bg-light text-dark me-1 mb-1">${order.name}</span>`;
+            return `<span class="badge bg-light text-dark me-1 mb-1">${order.partner_name}</span>`;
           })
           .join('');
 
         return `
                 <div class="customer-purchase-summary">
-                    <h6>${customer.name} (Orders: ${customer.age})</h6>
+                    <h6>${customer.name} (Orders: ${customer.purchases.length})</h6>
                     <div class="purchases-badges">
                         ${ordersHtml || '<span class="text-muted">No orders</span>'}
                     </div>

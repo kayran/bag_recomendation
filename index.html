@@ -14,16 +14,48 @@
     <div class="main">
         <h1>Recomendando a sua sacola</h1>
 
-        <div class="row mt-3">
-            <div class="col-md-4">
-                <div class="card mb-4">
+        <div class="d-flex w-100 gap-3 mt-3">
+            <div class="layout-left" style="width: 30%; display: flex; flex-direction: column; gap: 1rem;">
+                
+                <div class="card" style="max-height: 50vh; display: flex; flex-direction: column;">
+                    <div class="card-header">
+                        <h4>Treinamento do Modelo</h4>
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <div class="row">
+                            <div class="model-controls d-flex flex-wrap gap-2">
+                                <button id="trainModelBtn" class="btn btn-primary train-model-btn">
+                                    <i class="bi bi-cpu"></i> Treinar Modelo
+                                </button>
+                                <button disabled id="runRecommendationBtn" class="btn btn-success train-model-btn">
+                                    <i class="bi bi-cpu"></i> Rodar Recomendação
+                                </button>
+                                <button id="openTfVisBtn" class="btn btn-info train-model-btn text-white">
+                                    <i class="bi bi-graph-up"></i> TFVis
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="all-customers-purchases mt-3">
+                            <h5 id="purchasesDiv" style="cursor: pointer;">
+                                Dados de Pedidos de Todos CLientes
+                                <i id="purchasesArrow" class="bi bi-chevron-down"></i>
+                            </h5>
+                            <div id="allCustomersPurchasesList" class="customer-purchases-data overflow-auto"
+                                style="max-height: 250px;display: none;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
                     <div class="card-header">
                         <h4>Perfil do Cliente</h4>
                     </div>
                     <div class="card-body">
                         <form id="userForm">
                             <div class="row">
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-12 mb-3">
                                     <label for="userSelect" class="form-label">Selecione o Cliente</label>
                                     <select class="form-select" id="userSelect">
                                         <option value="">-- Selecione um cliente --</option>
@@ -52,40 +84,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <h4>Treinamento do Modelo</h4>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="model-controls d-flex gap-2">
-                                <button id="trainModelBtn" class="btn btn-primary train-model-btn">
-                                    <i class="bi bi-cpu"></i> Treinar Modelo
-                                </button>
-                                <button disabled id="runRecommendationBtn" class="btn btn-success train-model-btn">
-                                    <i class="bi bi-cpu"></i> Rodar Recomendação
-                                </button>
-                            </div>
-                        </div>
-
-
-                        <div class="all-customers-purchases">
-                            <h5 id="purchasesDiv" style="cursor: pointer;">
-                                Dados de Pedidos de Todos os Clientes
-                                <i id="purchasesArrow" class="bi bi-chevron-down"></i>
-                            </h5>
-                            <div id="allCustomersPurchasesList" class="customer-purchases-data overflow-auto"
-                                style="max-height: 400px;display: none;">
-                            </div>
-                        </div>
-                    </div>
+            <div class="layout-right" style="width: 70%;">
+                <h3 class="">Sacolas Disponíveis</h3>
+                <div class="row" id="productList">
                 </div>
             </div>
-        </div>
-
-        <h3 class="">Sacolas Disponíveis</h3>
-        <div class="row" id="productList">
         </div>
     </div>
 
@@ -93,6 +96,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.5.1/dist/tfjs-vis.umd.min.js"></script>
     <script type="module" src="./src/index.js"></script>
+
+    <!-- Custom TFVis Bottom Sheet -->
+    <div id="tfvisBottomSheet" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; height: 350px; background: white; z-index: 1050; box-shadow: 0 -5px 15px rgba(0,0,0,0.2); padding: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <h5 class="mb-0">Painel de Treinamento e Gráficos</h5>
+            <button id="closeTfVisBtn" class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="d-flex w-100" style="height: calc(100% - 40px);">
+            <div id="tfvisAccChart" style="width: 50%; height: 100%;"></div>
+            <div id="tfvisLossChart" style="width: 50%; height: 100%;"></div>
+        </div>
+    </div>
 </body>
 
 </html>

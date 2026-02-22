@@ -6,6 +6,9 @@ export class BagService {
     return bags.map((bag) => ({
       ...bag,
       partner_name: bag.name, // Using the name from enriched JSON
+      segment: bag.segment_name,
+      category: bag.bag_category,
+      type: bag.bag_type,
     }));
   }
 
