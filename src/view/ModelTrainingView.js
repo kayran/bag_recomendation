@@ -4,7 +4,7 @@ export class ModelView extends View {
     #trainModelBtn = document.querySelector('#trainModelBtn');
     #purchasesArrow = document.querySelector('#purchasesArrow');
     #purchasesDiv = document.querySelector('#purchasesDiv');
-    #allUsersPurchasesList = document.querySelector('#allUsersPurchasesList');
+    #allCustomersPurchasesList = document.querySelector('#allCustomersPurchasesList');
     #runRecommendationBtn = document.querySelector('#runRecommendationBtn');
     #onTrainModel;
     #onRunRecommendation;
@@ -30,7 +30,7 @@ export class ModelView extends View {
         });
 
         this.#purchasesDiv.addEventListener('click', () => {
-            const purchasesList = this.#allUsersPurchasesList;
+            const purchasesList = this.#allCustomersPurchasesList;
 
             const isHidden = window.getComputedStyle(purchasesList).display === 'none';
 
@@ -66,7 +66,7 @@ export class ModelView extends View {
             }).join('');
 
             return `
-                <div class="user-purchase-summary">
+                <div class="customer-purchase-summary">
                     <h6>${customer.name} (Orders: ${customer.age})</h6>
                     <div class="purchases-badges">
                         ${ordersHtml || '<span class="text-muted">No orders</span>'}
@@ -75,6 +75,6 @@ export class ModelView extends View {
             `;
         }).join('');
 
-        this.#allUsersPurchasesList.innerHTML = html;
+        this.#allCustomersPurchasesList.innerHTML = html;
     }
 }

@@ -11,19 +11,19 @@ function normalize(value, min, max) {
     // Implement normalization [0, 1]
 }
 
-function makeContext(products, users) {
-    // TODO: Create a context object with metadata, categories, and pre-computed product vectors
+function makeContext(bags, customers) {
+    // TODO: Create a context object with metadata, categories, and pre-computed bag vectors
     return {
         // ...
     };
 }
 
-function encodeProduct(product, context) {
-    // TODO: Use tf.oneHot and tf.concat to create a product vector
+function encodeBag(bag, context) {
+    // TODO: Use tf.oneHot and tf.concat to create a bag vector
 }
 
-function encodeUser(user, context) {
-    // TODO: Average product vectors from history or use user metadata
+function encodeCustomer(customer, context) {
+    // TODO: Average bag vectors from history or use customer metadata
 }
 
 function createTrainingData(context) {
@@ -34,16 +34,15 @@ async function configureNeuralNetAndTrain(trainingData) {
     // TODO: Create a tf.sequential model, add layers, and call model.fit()
 }
 
-async function trainModel({ users }) {
+async function trainModel({ customers, bags }) {
     console.log('Worker: Starting Training process...');
     postMessage({ type: workerEvents.progressUpdate, progress: { progress: 5 } });
 
-    // Boilerplate: Fetching the bag data
-    const productsResponse = await fetch('/data/availability.json');
-    const products = await productsResponse.json();
+    // Using the 'bags' (availability) data provided as parameter
+    const bags_list = bags;
 
     // TODO: Implement the training pipeline below:
-    // 1. const context = makeContext(products, users);
+    // 1. const context = makeContext(bags_list, customers);
     // 2. const trainingData = createTrainingData(context);
     // 3. _model = await configureNeuralNetAndTrain(trainingData);
 
@@ -51,14 +50,14 @@ async function trainModel({ users }) {
     postMessage({ type: workerEvents.trainingComplete });
 }
 
-function recommend({ user }) {
+function recommend({ customer }) {
     console.log('Worker: Recommendation requested');
 
     // TODO: Implement the recommendation logic using _model.predict()
 
     /* postMessage({
         type: workerEvents.recommend,
-        user,
+        customer,
         recommendations: [] // Placeholder
     }); */
 }

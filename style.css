@@ -7,7 +7,7 @@ body {
     max-width: 1600px;
 }
 
-.product-card {
+.bag-card {
     margin-bottom: 20px;
     height: 100%;
 }
@@ -46,12 +46,12 @@ body {
     margin-bottom: 20px;
 }
 
-.user-purchase-summary {
+.customer-purchase-summary {
     border-bottom: 1px solid #dee2e6;
     padding: 8px 0;
 }
 
-.user-purchase-summary:last-child {
+.customer-purchase-summary:last-child {
     border-bottom: none;
 }
 
@@ -76,6 +76,6 @@ body {
     padding: 20px;
 }
 
-.user-purchases-data {
+.customer-purchases-data {
     transition: max-height 0.3s ease;
 }

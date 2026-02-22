@@ -53,7 +53,7 @@ export class CustomerView extends View {
         const html = pastOrders.map(order => {
             return this.replaceTemplate(this.#orderTemplate, {
                 ...order,
-                product: JSON.stringify(order)
+                bag: JSON.stringify(order)
             });
         }).join('');
 
@@ -68,7 +68,7 @@ export class CustomerView extends View {
 
         const orderHtml = this.replaceTemplate(this.#orderTemplate, {
             ...order,
-            product: JSON.stringify(order)
+            bag: JSON.stringify(order)
         });
 
         this.#pastPurchasesList.insertAdjacentHTML('afterbegin', orderHtml);
@@ -108,7 +108,7 @@ export class CustomerView extends View {
             this.#pastOrderElements.push(orderElement);
 
             orderElement.onclick = (event) => {
-                const order = JSON.parse(orderElement.dataset.product);
+                const order = JSON.parse(orderElement.dataset.bag);
                 const customerId = this.getSelectedCustomerId();
                 const element = orderElement.closest('.col-md-6');
 

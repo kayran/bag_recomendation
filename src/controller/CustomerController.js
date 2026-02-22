@@ -24,7 +24,7 @@ export class CustomerController {
         this.setupCallbacks();
         this.setupOrderObserver();
 
-        this.#events.dispatchUsersUpdated({ users: customers });
+        this.#events.dispatchCustomersUpdated({ customers: customers });
     }
 
     setupCallbacks() {
@@ -42,21 +42,21 @@ export class CustomerController {
 
     async handleCustomerSelect(customerId) {
         const customer = await this.#customerService.getCustomerById(customerId);
-        this.#events.dispatchUserSelected(customer);
+        this.#events.dispatchCustomerSelected(customer);
         return this.displayCustomerDetails(customer);
     }
 
-    async handleOrderAdded({ user, product }) {
-        const updatedCustomer = await this.#customerService.getCustomerById(user.id);
+    async handleOrderAdded({ customer, bag }) {
+        const updatedCustomer = await this.#customerService.getCustomerById(customer.id);
         updatedCustomer.purchases.push({
-            ...product
+            ...bag
         });
 
         await this.#customerService.updateCustomer(updatedCustomer);
 
         const lastOrder = updatedCustomer.purchases[updatedCustomer.purchases.length - 1];
         this.#customerView.addPastOrder(lastOrder);
-        this.#events.dispatchUsersUpdated({ users: await this.#customerService.getCustomers() });
+        this.#events.dispatchCustomersUpdated({ customers: await this.#customerService.getCustomers() });
     }
 
     async handleOrderRemove({ customerId, order }) {
@@ -67,7 +67,7 @@ export class CustomerController {
             customer.purchases.splice(index, 1);
             await this.#customerService.updateCustomer(customer);
             const updatedCustomers = await this.#customerService.getCustomers();
-            this.#events.dispatchUsersUpdated({ users: updatedCustomers });
+            this.#events.dispatchCustomersUpdated({ customers: updatedCustomers });
         }
     }
 

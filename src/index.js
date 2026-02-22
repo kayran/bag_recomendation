@@ -25,16 +25,21 @@ const mlWorker = new Worker('/src/workers/modelTrainingWorker.js', { type: 'modu
 // Set up worker message handler
 const w = WorkerController.init({
     worker: mlWorker,
-    events: Events
+    events: Events,
 });
 
-const users = await customerService.getDefaultCustomers();
-w.triggerTrain(users);
+// Initial training trigger
+const [customers, bags] = await Promise.all([
+    customerService.getCustomers(),
+    bagService.getBags()
+]);
+w.triggerTrain({ customers, bags });
 
 
 ModelController.init({
     modelView,
     userService: customerService,
+    bagService: bagService,
     events: Events,
 });
 

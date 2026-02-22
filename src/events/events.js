@@ -90,25 +90,25 @@ export default class Events {
     }
 
 
-    static onUserSelected(callback) {
-        document.addEventListener(events.userSelected, (event) => {
+    static onCustomerSelected(callback) {
+        document.addEventListener(events.customerSelected, (event) => {
             return callback(event.detail);
         });
     }
-    static dispatchUserSelected(data) {
-        const event = new CustomEvent(events.userSelected, {
+    static dispatchCustomerSelected(data) {
+        const event = new CustomEvent(events.customerSelected, {
             detail: data
         });
         document.dispatchEvent(event);
     }
 
-    static onUsersUpdated(callback) {
-        document.addEventListener(events.usersUpdated, (event) => {
+    static onCustomersUpdated(callback) {
+        document.addEventListener(events.customersUpdated, (event) => {
             return callback(event.detail);
         });
     }
-    static dispatchUsersUpdated(data) {
-        const event = new CustomEvent(events.usersUpdated, {
+    static dispatchCustomersUpdated(data) {
+        const event = new CustomEvent(events.customersUpdated, {
             detail: data
         });
         document.dispatchEvent(event);

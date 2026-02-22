@@ -1,6 +1,7 @@
 export class ModelController {
     #modelView;
     #customerService;
+    #bagService;
     #events;
     #currentCustomer = null;
     #alreadyTrained = false;
@@ -8,10 +9,12 @@ export class ModelController {
     constructor({
         modelView,
         userService,
+        bagService,
         events,
     }) {
         this.#modelView = modelView;
         this.#customerService = userService;
+        this.#bagService = bagService;
         this.#events = events;
 
         this.init();
@@ -29,7 +32,7 @@ export class ModelController {
         this.#modelView.registerTrainModelCallback(this.handleTrainModel.bind(this));
         this.#modelView.registerRunRecommendationCallback(this.handleRunRecommendation.bind(this));
 
-        this.#events.onUserSelected((customer) => {
+        this.#events.onCustomerSelected((customer) => {
             this.#currentCustomer = customer;
             if (!this.#alreadyTrained) return;
             this.#modelView.enableRecommendButton();
@@ -41,7 +44,7 @@ export class ModelController {
             this.#modelView.enableRecommendButton();
         });
 
-        this.#events.onUsersUpdated(
+        this.#events.onCustomersUpdated(
             async (...data) => {
                 return this.refreshCustomersOrderData(...data);
             }
@@ -54,8 +57,11 @@ export class ModelController {
     }
 
     async handleTrainModel() {
-        const customers = await this.#customerService.getCustomers();
-        this.#events.dispatchTrainModel(customers);
+        const [customers, bags] = await Promise.all([
+            this.#customerService.getCustomers(),
+            this.#bagService.getBags()
+        ]);
+        this.#events.dispatchTrainModel({ customers, bags });
     }
 
     handleTrainingProgressUpdate(progress) {
@@ -68,7 +74,7 @@ export class ModelController {
         this.#events.dispatchRecommend(updatedCustomer);
     }
 
-    async refreshCustomersOrderData({ users }) {
-        this.#modelView.renderAllCustomersOrders(users);
+    async refreshCustomersOrderData({ customers }) {
+        this.#modelView.renderAllCustomersOrders(customers);
     }
 }

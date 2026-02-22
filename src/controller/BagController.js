@@ -27,7 +27,7 @@ export class BagController {
     }
 
     setupEventListeners() {
-        this.#events.onUserSelected((customer) => {
+        this.#events.onCustomerSelected((customer) => {
             this.#currentCustomer = customer;
             this.#bagView.onCustomerSelected(customer);
             this.#events.dispatchRecommend(customer);
@@ -44,6 +44,6 @@ export class BagController {
 
     async handleBuyBag(bag) {
         const customer = this.#currentCustomer;
-        this.#events.dispatchPurchaseAdded({ user: customer, product: bag });
+        this.#events.dispatchPurchaseAdded({ customer: customer, bag: bag });
     }
 }

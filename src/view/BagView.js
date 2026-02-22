@@ -37,7 +37,7 @@ export class BagView extends View {
                 segment: bag.segment_name,
                 category: bag.bag_category,
                 price: bag.bag_price,
-                product: JSON.stringify(bag)
+                bag: JSON.stringify(bag)
             });
         }).join('');
 
@@ -74,7 +74,7 @@ export class BagView extends View {
         this.#buttons.forEach(button => {
 
             button.addEventListener('click', (event) => {
-                const bag = JSON.parse(button.dataset.product);
+                const bag = JSON.parse(button.dataset.bag);
                 const originalText = button.innerHTML;
 
                 button.innerHTML = '<i class="bi bi-check-circle-fill"></i> Added';
