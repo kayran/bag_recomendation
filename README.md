@@ -1,6 +1,6 @@
 # Bag Recommendation System (Sacolas do Bem)
 
-A specialized recommendation engine designed to suggest the best available surprise bags ("sacolas") to users based on their historical purchase patterns, average ticket, and preferences.
+A specialized recommendation engine designed to suggest the best available surprise bags ("sacolas") to customers based on their historical purchase patterns, average ticket, and preferences.
 
 ## 🚀 Motivation & Inspiration
 
@@ -10,11 +10,13 @@ The core architecture and logic are based on the concepts presented by **Profess
 
 ## 🛠 Features
 
-- **Personalized Recommendations**: Uses a Neural Network built with TensorFlow.js to match users with available bags.
+- **Personalized Recommendations**: Uses a Neural Network built with TensorFlow.js to match customers with available bags.
+- **Balanced Dataset Training**: Solves model collapse by dynamically sampling proportional negative examples alongside historical positive purchases.
 - **Realistic Data Persona**: Data enriched with realistic names, personas, and establishment identities to simulate a production environment.
 - **Asynchronous Training**: Dedicated Web Worker for model training to ensure a smooth, non-blocking UI experience.
-- **Live Monitoring**: Integration with `tfjs-vis` for real-time visualization of model loss and accuracy during the training phase.
+- **Custom Visualizer Dashboard**: Uses `tfjs-vis` integrated into a custom responsive bottom sheet for real-time visualization of model loss and accuracy.
 - **Dynamic Customer Profiles**: Real-time display of total orders, average tickets, and synchronized history.
+- **Code Quality Enforcement**: Fully integrated with ESLint + Prettier for static analysis and automated formatting.
 
 ## 🏗 Project Structure
 
@@ -70,7 +72,9 @@ The application will automatically open in your browser at `http://localhost:300
 
 ## 🧠 Technical Overview
 
-The system encodes categorical data (segments, categories, bag types) into numerical tensors. The model is a multi-layer perceptron (MLP) that learns customer behavior by correlating their historical "Average Ticket" and "Segment Frequency" with specific bag features. Training occurs in the background via `modelTrainingWorker.js` to prevent UI thread blocking.
+The system encodes categorical data (segments, categories, bag types) into numerical tensors. The model is a multi-layer perceptron (MLP) that learns customer behavior by correlating their historical metrics ("Average Ticket", "Quantities", "Feedback Scores") with specific bag features. 
+
+To prevent neural network optimization collapse, the system structures the context by actively balancing the dataset with positive labels (actual purchases) and a proportionate number of negative labels (random unpurchased bags). Training occurs in the background via `modelTrainingWorker.js` to prevent UI thread blocking, seamlessly passing the predictions back for sorting the recommendation feed.
 
 ---
 *Developed for academic purposes in the Engenharia de Software com IA Aplicada program.*
