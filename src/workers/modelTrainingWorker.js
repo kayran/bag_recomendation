@@ -16,9 +16,6 @@ const WEIGHTS = {
   segment: 0.0,
 };
 
-/**
- * TODO: Implement normalization and encoding logic
- */
 function normalize(value, min, max) {
   // Implement normalization [0, 1]
   return (value - min) / (max - min);
@@ -33,8 +30,6 @@ function getRegionKey(lat, long) {
 }
 
 function makeContext(bags, customers) {
-  // TODO: Create a context object with metadata, categories, and pre-computed bag vectors
-
   // Customer Data
 
   const minAvgTicket = Math.min(...customers.map((c) => c.avg_ticket));
@@ -343,7 +338,6 @@ const oneHotWeighted = (index, length, weight) => {
 };
 
 function encodeBag(bag, context) {
-  // TODO: Use tf.oneHot and tf.concat to create a bag vector
 
   const rawPrice = Number(
     bag.price || bag.bag_price || context.metadata.minPrice
@@ -486,8 +480,6 @@ function createTrainingData(context) {
 }
 
 async function configureNeuralNetAndTrain(trainingData) {
-  // TODO: Create a tf.sequential model, add layers, and call model.fit()
-
   const model = tf.sequential();
 
   model.add(
@@ -595,7 +587,6 @@ function recommend({ customer }) {
   const scoresTensor = _model.predict(tf.tensor2d(inputs));
   const scores = scoresTensor.dataSync();
 
-  console.log(customer, 'Scores:', scores);
 
   const sortedBags = _globalCtx.bagsVector
     .map((bagObj, index) => {
@@ -606,8 +597,6 @@ function recommend({ customer }) {
       };
     })
     .sort((a, b) => b.score - a.score);
-
-  console.log(customer, 'Sorted Bags:', sortedBags);
 
   postMessage({
     type: workerEvents.recommend,
