@@ -60,6 +60,7 @@ export class CustomerView extends View {
       .map((order) => {
         return this.replaceTemplate(this.#orderTemplate, {
           ...order,
+          segment: order.partner_segment || order.segment,
           type: this.translateBagType(order.type),
           bag: JSON.stringify(order),
         });
@@ -77,6 +78,7 @@ export class CustomerView extends View {
 
     const orderHtml = this.replaceTemplate(this.#orderTemplate, {
       ...order,
+      segment: order.partner_segment || order.segment,
       type: this.translateBagType(order.type),
       bag: JSON.stringify(order),
     });

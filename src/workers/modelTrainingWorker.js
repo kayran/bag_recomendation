@@ -16,6 +16,19 @@ const WEIGHTS = {
   segment: 0.3,
 };
 
+const MODEL_CONFIG = {
+  epochs: 100,
+  batchSize: 32,
+  shuffle: true,
+  learningRate: 0.01,
+  optimizer: 'adam',
+  loss: 'meanSquaredError',
+  metrics: ['accuracy'],
+  activation: { hidden: 'relu', output: 'sigmoid' },
+  layers: 3,
+  units: [128, 64, 32],
+};
+
 function normalize(value, min, max) {
   // Implement normalization [0, 1]
   return (value - min) / (max - min);
@@ -338,7 +351,6 @@ const oneHotWeighted = (index, length, weight) => {
 };
 
 function encodeBag(bag, context) {
-
   const rawPrice = Number(
     bag.price || bag.bag_price || context.metadata.minPrice
   );
@@ -485,42 +497,42 @@ async function configureNeuralNetAndTrain(trainingData) {
   model.add(
     tf.layers.dense({
       inputShape: [trainingData.inputDimensions],
-      units: 128,
-      activation: 'relu',
+      units: MODEL_CONFIG.units[0],
+      activation: MODEL_CONFIG.activation.hidden,
     })
   );
 
   model.add(
     tf.layers.dense({
-      units: 64,
-      activation: 'relu',
+      units: MODEL_CONFIG.units[1],
+      activation: MODEL_CONFIG.activation.hidden,
     })
   );
 
   model.add(
     tf.layers.dense({
-      units: 32,
-      activation: 'relu',
+      units: MODEL_CONFIG.units[2],
+      activation: MODEL_CONFIG.activation.hidden,
     })
   );
 
   model.add(
     tf.layers.dense({
       units: 1,
-      activation: 'sigmoid',
+      activation: MODEL_CONFIG.activation.output,
     })
   );
 
   model.compile({
-    optimizer: tf.train.adam(0.01),
-    loss: 'binaryCrossentropy',
-    metrics: ['accuracy'],
+    optimizer: tf.train.adam(MODEL_CONFIG.learningRate),
+    loss: MODEL_CONFIG.loss,
+    metrics: MODEL_CONFIG.metrics,
   });
 
   await model.fit(trainingData.xs, trainingData.ys, {
-    epochs: 20,
-    batchSize: 32,
-    shuffle: true,
+    epochs: MODEL_CONFIG.epochs,
+    batchSize: MODEL_CONFIG.batchSize,
+    shuffle: MODEL_CONFIG.shuffle,
     callbacks: {
       onEpochEnd: (epoch, logs) => {
         console.log(
@@ -586,7 +598,6 @@ function recommend({ customer }) {
 
   const scoresTensor = _model.predict(tf.tensor2d(inputs));
   const scores = scoresTensor.dataSync();
-
 
   const sortedBags = _globalCtx.bagsVector
     .map((bagObj, index) => {

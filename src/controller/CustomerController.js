@@ -48,9 +48,26 @@ export class CustomerController {
     const updatedCustomer = await this.#customerService.getCustomerById(
       customer.id
     );
-    updatedCustomer.purchases.push({
-      ...bag,
-    });
+
+    const newOrder = {
+      order_uuid: crypto.randomUUID
+        ? crypto.randomUUID()
+        : Math.random().toString(),
+      price: bag.bag_price || bag.price,
+      type: bag.bag_type || bag.type,
+      category: bag.bag_category || bag.category,
+      customer_id: customer.id,
+      partner_id: bag.partner_id || bag.id,
+      score: '5', // Assumed good score for a brand new explicit buy
+      score_quality: null,
+      score_quantity: null,
+      score_variety: null,
+      segment_id: bag.segment_id || '2',
+      partner_segment: bag.segment_name || bag.segment,
+      partner_name: bag.name || bag.partner_name,
+    };
+
+    updatedCustomer.purchases.push(newOrder);
 
     await this.#customerService.updateCustomer(updatedCustomer);
 
