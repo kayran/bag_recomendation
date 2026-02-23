@@ -548,5 +548,1505 @@
     "bag_category": "Diversos",
     "bag_price": "35.97",
     "name": "Universo dos Doces"
+  },
+  {
+    "bag_id": "5fbaf10e-b47f-4778-be89-d91659db1fc9",
+    "name": "Sakura Sabores",
+    "partner_id": "2fde6edc-e3a1-41ff-9c1c-13c5730679aa",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "32.58",
+    "original_value": "102.34"
+  },
+  {
+    "bag_id": "ced0639b-21f1-4311-bded-45d3699788af",
+    "name": "Sabor de Mel",
+    "partner_id": "27adf53e-3cdf-48e0-a7a3-203e75720a81",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "33.99",
+    "original_value": "103.27"
+  },
+  {
+    "bag_id": "3d759964-4325-4fda-9752-793c1ee4d587",
+    "name": "Check-out Rápido",
+    "partner_id": "1534f4eb-2523-4136-ade7-2afbfd401107",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "27.63",
+    "original_value": "96.28"
+  },
+  {
+    "bag_id": "22ab238c-2c17-46d6-a9b8-785af630e59a",
+    "name": "Mercado Compra Certa Gourmet",
+    "partner_id": "c6da6d27-a4cd-42b3-a831-28407f17f656",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "32.39",
+    "original_value": "111.58"
+  },
+  {
+    "bag_id": "171e3936-69a6-40a4-8cfa-4e2f74d88c51",
+    "name": "Express Market",
+    "partner_id": "87e92e6d-9129-42c5-adde-5d0f731b6f7b",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "29.11",
+    "original_value": "75.38"
+  },
+  {
+    "bag_id": "fa1a3fd8-84b4-484d-a18a-aa0b19cafb7f",
+    "name": "Estrela do Vale",
+    "partner_id": "e8539907-b1af-45ff-a059-c66416bf7b98",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "26.03",
+    "original_value": "66.36"
+  },
+  {
+    "bag_id": "5231b7b1-67d0-4d20-92e3-a79011af1e25",
+    "name": "Sabor & Prosa",
+    "partner_id": "dac90c92-ba56-4206-9c83-7f996c89e8d1",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "12.92",
+    "original_value": "28.88"
+  },
+  {
+    "bag_id": "8a11a232-04f4-4d26-82d9-9e905a416284",
+    "name": "Varejão do Centro",
+    "partner_id": "10f72b71-6526-4c15-8779-c829feef111a",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "32.58",
+    "original_value": "85.41"
+  },
+  {
+    "bag_id": "ef32e3c4-9598-4ba2-a74c-5aa16faa27bc",
+    "name": "Pausa Gourmet",
+    "partner_id": "6ac81c22-c389-483a-bde4-c8f7635224b7",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "12.69",
+    "original_value": "35.77"
+  },
+  {
+    "bag_id": "b73c9d5e-255d-4f54-a236-1c6d8b4b725e",
+    "name": "Tempero Real",
+    "partner_id": "87968024-222e-4fef-b874-1164d63d2aad",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "34.19",
+    "original_value": "113.25"
+  },
+  {
+    "bag_id": "3f0b6a98-ab74-4886-b79f-8d22c049eab3",
+    "name": "Empório Real",
+    "partner_id": "0645c535-997c-4026-825f-ce72952e59c1",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "43.76",
+    "original_value": "149.37"
+  },
+  {
+    "bag_id": "8bede74f-d90d-4b51-8003-cbc5cd8ccb2d",
+    "name": "Confeitaria VIP",
+    "partner_id": "ef87d7dc-f484-4be9-b862-af2dcf4f6fe9",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "28.82",
+    "original_value": "97.06"
+  },
+  {
+    "bag_id": "8319aeed-ccd8-4ba6-980f-6f3876d13685",
+    "name": "Cantinho do Descanso",
+    "partner_id": "03317563-4b72-4619-972b-5ee28cd0f2c4",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "31.15",
+    "original_value": "92.51"
+  },
+  {
+    "bag_id": "3172391b-7151-464b-b757-2907d1dda7eb",
+    "name": "Pão Quente Master",
+    "partner_id": "ae95554d-ef3e-4ce6-8cf7-7581e387f8bd",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "33.12",
+    "original_value": "115.41"
+  },
+  {
+    "bag_id": "e512736c-d5d9-49c4-9487-9db5614386fd",
+    "name": "Oriental Mix",
+    "partner_id": "aff5d33e-92ef-4cfc-bda7-a78d302f3d9c",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "44.00",
+    "original_value": "88.25"
+  },
+  {
+    "bag_id": "02250602-3a1a-44c3-89d3-407e90ffa9ee",
+    "name": "Fábrica de Delícias Express",
+    "partner_id": "4f4257a4-1030-4885-992a-d5c559cb8510",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "13.49",
+    "original_value": "31.58"
+  },
+  {
+    "bag_id": "d743a3c2-d620-4033-9459-89e90dd6cf14",
+    "name": "Mercado Popular Plus",
+    "partner_id": "dedf998d-a352-4fc0-8ff9-666170d41f9a",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "10.51",
+    "original_value": "25.04"
+  },
+  {
+    "bag_id": "185f7ec2-280e-43e3-8d3e-48d9ec3b485f",
+    "name": "Solar das Artes",
+    "partner_id": "ffba2a19-0d12-437e-b618-db08e169b047",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "34.10",
+    "original_value": "110.03"
+  },
+  {
+    "bag_id": "8b375213-da06-4ec2-a29d-b12f54b095e6",
+    "name": "Encanto do Doce Express",
+    "partner_id": "a88fb6bb-83e7-4b62-9b03-7942121e628d",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "MIXED",
+    "bag_price": "29.43",
+    "original_value": "67.84"
+  },
+  {
+    "bag_id": "e781fc9b-8dda-4a79-9b83-333c1b286e6e",
+    "name": "Estação do Lanche",
+    "partner_id": "fb2e6ae7-4362-48d5-84bc-ba15b4cf5d47",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "27.17",
+    "original_value": "79.42"
+  },
+  {
+    "bag_id": "b7bd69ec-bde1-46ee-b12e-23c1f5c0e9dd",
+    "name": "Aroma de Minas",
+    "partner_id": "4ce88c99-7a86-4023-af09-e05d3ac818b9",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "12.66",
+    "original_value": "29.95"
+  },
+  {
+    "bag_id": "feef200e-6411-43e3-999f-3c89f70f9c2a",
+    "name": "Tókio Gourmet",
+    "partner_id": "db37e27a-acec-443f-934e-c075843051ae",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "19.32",
+    "original_value": "58.53"
+  },
+  {
+    "bag_id": "20dce695-a1a8-4fc7-85a6-c1671477735d",
+    "name": "Conveniência Total",
+    "partner_id": "67a2d8f0-5c51-4221-9d85-febfc344a43b",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "24.51",
+    "original_value": "70.52"
+  },
+  {
+    "bag_id": "d2628a82-be94-4e18-88e2-2c2a2f9850a4",
+    "name": "Doce Sabor Tradicional",
+    "partner_id": "49ec871a-7088-4283-a7b1-26bd93d9644c",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "18.28",
+    "original_value": "49.13"
+  },
+  {
+    "bag_id": "8c50d1aa-f50e-406e-9017-3235fd51061b",
+    "name": "Espaço do Pão da Esquina",
+    "partner_id": "70f32b88-a7d2-4f1a-9c67-0a974b065e92",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "33.24",
+    "original_value": "94.83"
+  },
+  {
+    "bag_id": "6b63a681-f0ba-4ecc-a839-dc69f1b781e6",
+    "name": "Super Preço Premium",
+    "partner_id": "255367f7-09dc-4ead-af13-9063e1b32c4a",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "33.84",
+    "original_value": "92.90"
+  },
+  {
+    "bag_id": "d5321af3-69dd-4f2b-86a8-73a360232a0e",
+    "name": "Puro Mel Vip",
+    "partner_id": "2a2566cc-f544-4068-8d6b-620427b5fde6",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "14.92",
+    "original_value": "44.30"
+  },
+  {
+    "bag_id": "be8a7a24-aa38-4851-8e1f-ce2cda33e23b",
+    "name": "Forno Divino",
+    "partner_id": "769d8225-d6ce-4b96-b56c-fa47a4d7cf43",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "26.97",
+    "original_value": "78.52"
+  },
+  {
+    "bag_id": "82415b5b-0ed2-4e8c-a198-63cdebf992e1",
+    "name": "Bella Vista",
+    "partner_id": "fb9a061c-e2eb-4a08-88c4-c4b5fc3b38df",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "21.06",
+    "original_value": "71.98"
+  },
+  {
+    "bag_id": "4ffa0b4c-001e-4cce-bb7f-145ae4d5579f",
+    "name": "Seleção do Dia Tradicional",
+    "partner_id": "0b5265a9-f20d-4dff-8f05-5a50144299ef",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "35.36",
+    "original_value": "118.88"
+  },
+  {
+    "bag_id": "9a40763a-8968-4bf8-b933-8684257827d6",
+    "name": "Espaço Diversos",
+    "partner_id": "b011ddd0-8c07-4159-9622-92f28fa8daaf",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "12.33",
+    "original_value": "41.75"
+  },
+  {
+    "bag_id": "49b944cf-c385-438b-9984-3d3ca215dc37",
+    "name": "Super São José Plus",
+    "partner_id": "4ecd86d1-5f92-465e-a1e8-b038c3a294c1",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "39.14",
+    "original_value": "118.46"
+  },
+  {
+    "bag_id": "f5dd0d0d-c7a8-4bd7-a930-efe62ddf2365",
+    "name": "Açúcar e Cor",
+    "partner_id": "f6f93357-4130-474f-8966-9a2c3163f55e",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "40.78",
+    "original_value": "95.68"
+  },
+  {
+    "bag_id": "4d184a66-9b3a-4142-a1a5-d24c42f08365",
+    "name": "Burger Lab Express",
+    "partner_id": "9f7f82ae-18e4-4761-b9b1-8da03104cdcb",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "44.60",
+    "original_value": "123.11"
+  },
+  {
+    "bag_id": "f8d1c82d-3735-4719-a2e9-fc5c66db7279",
+    "name": "Arte do Trigo Original",
+    "partner_id": "a516d1de-64db-4345-bdd9-9e499d26c7e4",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "26.32",
+    "original_value": "80.49"
+  },
+  {
+    "bag_id": "c5d82782-4392-4c4d-8792-328ab8a90a5c",
+    "name": "Chef's Burger",
+    "partner_id": "0f42ce97-26f2-432e-a989-bb9998cc9fb2",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "22.55",
+    "original_value": "60.76"
+  },
+  {
+    "bag_id": "ced0a517-c56d-41df-92c0-fb7e22a163e5",
+    "name": "Mercado Ideal Tradicional",
+    "partner_id": "a3d21630-9cd9-4c59-a9f8-595c7523e00c",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "12.90",
+    "original_value": "40.60"
+  },
+  {
+    "bag_id": "94d8d63a-a5a6-4468-a8a3-f39c0a5107c2",
+    "name": "Mundo do Café",
+    "partner_id": "ac6f5b6e-eca0-4d75-9a42-347c845986c8",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "33.75",
+    "original_value": "81.15"
+  },
+  {
+    "bag_id": "1a7bce54-1d45-4e4f-91b6-6348d7468e51",
+    "name": "Pousada do Sol Premium",
+    "partner_id": "9ebcf809-b777-452e-b5c6-4d8d1da67ed0",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "12.39",
+    "original_value": "37.85"
+  },
+  {
+    "bag_id": "54df3c40-076a-46c7-8a3e-2c30c8d6c258",
+    "name": "Sanduba & Cia",
+    "partner_id": "ebf9a120-190b-4eae-a420-9bf4eadf9747",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "48.75",
+    "original_value": "133.32"
+  },
+  {
+    "bag_id": "3bcf2df6-c93d-4b01-924f-4eea77d5ca68",
+    "name": "Gosto Caseiro",
+    "partner_id": "d59e913d-4f68-4e24-8e93-b6e5f0f534cc",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "29.50",
+    "original_value": "66.44"
+  },
+  {
+    "bag_id": "65162e06-8edd-4f0e-9581-b5d356fae8ce",
+    "name": "Ponto do Trigo",
+    "partner_id": "aff8a0c5-160f-455d-bd94-a275774614ce",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "46.12",
+    "original_value": "98.42"
+  },
+  {
+    "bag_id": "fadcdc0a-9432-49b0-ad6d-90ff2cda6efc",
+    "name": "Forno Antigo",
+    "partner_id": "6886555d-125a-4c2f-9dc5-25038542d4c0",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "43.38",
+    "original_value": "129.03"
+  },
+  {
+    "bag_id": "4a101f69-6ee9-4c19-8351-d784183f57ef",
+    "name": "Divino Fogão",
+    "partner_id": "37e31299-71af-4241-83a8-f3ecad994e78",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "11.92",
+    "original_value": "28.07"
+  },
+  {
+    "bag_id": "f2e353fd-4d2d-4bad-acd6-72c459f5c109",
+    "name": "Cantina da Nona",
+    "partner_id": "8e6055c4-a322-4d1d-9d7a-79cc620157b1",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "49.09",
+    "original_value": "161.17"
+  },
+  {
+    "bag_id": "c9b14589-f961-48cc-92a4-ef5b067ff8b7",
+    "name": "Empório Central da Esquina",
+    "partner_id": "f496800c-02b4-4ee4-8725-3f1ca6419ead",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "17.39",
+    "original_value": "51.84"
+  },
+  {
+    "bag_id": "1cafd5bf-bc90-477a-8fb6-2d4e668c6f52",
+    "name": "Empório Central Especial",
+    "partner_id": "ffcd4458-92cc-4ee2-b429-61be3777fc63",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "33.64",
+    "original_value": "103.89"
+  },
+  {
+    "bag_id": "159f58f8-41a2-43ea-b112-561bc4c6c48e",
+    "name": "Açúcar e Afeto",
+    "partner_id": "9b4df02a-08f5-4bca-914e-73e77987911c",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "25.45",
+    "original_value": "86.01"
+  },
+  {
+    "bag_id": "66c4449f-44d5-4e35-9ee0-6f79e5cdddb7",
+    "name": "Express Market do Centro",
+    "partner_id": "fdaf2e4a-1fc8-410a-b245-02ec964a3456",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "49.87",
+    "original_value": "146.06"
+  },
+  {
+    "bag_id": "e525df8c-ed47-4f1a-bad5-3c77ef2f9183",
+    "name": "Grand Hotel",
+    "partner_id": "df00392a-6f35-407b-a361-6329a8be7850",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "42.86",
+    "original_value": "106.85"
+  },
+  {
+    "bag_id": "905580c3-2c1c-431d-8f14-082d59acafa7",
+    "name": "Mercado Família",
+    "partner_id": "286b3415-2c00-4936-a1b0-99874965e656",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "22.59",
+    "original_value": "49.90"
+  },
+  {
+    "bag_id": "890b085d-be8e-4639-b5ec-bc5b6f79887f",
+    "name": "Portal dos Doces",
+    "partner_id": "7d9f05ab-0b20-4d60-ac14-74bc2f7761f3",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "45.43",
+    "original_value": "92.33"
+  },
+  {
+    "bag_id": "57b5dff0-d953-498e-8dd7-13f2b275fad7",
+    "name": "Mercado do Bairro Ponto Central",
+    "partner_id": "3b8de1d8-7ac6-4d5e-93f2-3cd162f38b06",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "35.63",
+    "original_value": "89.30"
+  },
+  {
+    "bag_id": "2569aa88-5de7-4e00-a061-7ce7e87d172d",
+    "name": "Coração do Trigo",
+    "partner_id": "e65cc737-b486-47d5-9577-849941e3ceff",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "10.34",
+    "original_value": "25.75"
+  },
+  {
+    "bag_id": "f1c8ef00-e2f9-4703-a46d-9ee2a530c450",
+    "name": "Aconchego do Café",
+    "partner_id": "400e9de7-567a-4e9f-96ca-63a10955c6ff",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "39.21",
+    "original_value": "85.41"
+  },
+  {
+    "bag_id": "c063f324-a4a4-439d-9fab-7ac2cdfb70fa",
+    "name": "Mercado Ideal",
+    "partner_id": "ca5203d4-b167-4e5d-8043-c439e4500ff6",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "31.49",
+    "original_value": "73.64"
+  },
+  {
+    "bag_id": "b27bb324-920c-4590-ae37-820dfef52d4d",
+    "name": "Tempero Real da Esquina",
+    "partner_id": "8c412dd6-2e5a-44c3-89c9-5d71266274d9",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "24.47",
+    "original_value": "58.69"
+  },
+  {
+    "bag_id": "19bd50de-a6de-4611-ad3a-386776dbfd37",
+    "name": "Massa Fresca",
+    "partner_id": "d33cf4de-c578-4b98-bde5-eb0a24d77af6",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "41.05",
+    "original_value": "141.06"
+  },
+  {
+    "bag_id": "79db89fd-a8c7-495c-bf78-621a66fa3fdc",
+    "name": "Arte do Trigo Express",
+    "partner_id": "a7d3c8ad-24ec-4fa4-8209-78c3593de509",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "23.21",
+    "original_value": "70.05"
+  },
+  {
+    "bag_id": "0926e5c2-51aa-4de2-8ddd-90527f3b6631",
+    "name": "Padaria da Esquina",
+    "partner_id": "bfd29308-000c-4e90-ac1d-404129a02016",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "19.50",
+    "original_value": "65.62"
+  },
+  {
+    "bag_id": "9e0f27d0-b175-4fe5-bcac-19b6d7632c6f",
+    "name": "Super Preço",
+    "partner_id": "9287a63d-2e46-4bfb-a6bf-b8e845857733",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "17.43",
+    "original_value": "49.01"
+  },
+  {
+    "bag_id": "7f08a1a7-73d2-4e19-a355-6a4f7412ef77",
+    "name": "Sanduba & Cia da Cidade",
+    "partner_id": "d45a7cd8-d066-4927-b9c9-6c7a1346465f",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "35.28",
+    "original_value": "71.31"
+  },
+  {
+    "bag_id": "5c41b5e1-2d79-49ef-8fb3-aeaffb70eff4",
+    "name": "Bistrô das Artes",
+    "partner_id": "0a9559b3-fdd1-4ed5-bc20-683a827c90e9",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "41.30",
+    "original_value": "112.52"
+  },
+  {
+    "bag_id": "0b2f5f48-7634-470c-b4f6-43c1ef1bbdda",
+    "name": "Big Taste Gourmet",
+    "partner_id": "422e9994-c4e7-4e2c-8387-c02918a29c86",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "34.51",
+    "original_value": "90.37"
+  },
+  {
+    "bag_id": "3949ad4f-40c1-432d-8a9e-38a8ec1e3410",
+    "name": "Cozinha Divina Express",
+    "partner_id": "781eaf9c-504b-44a0-b33d-d5857b758466",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "36.54",
+    "original_value": "98.16"
+  },
+  {
+    "bag_id": "4bed2d7a-3227-4f5c-8167-36363c23a9a7",
+    "name": "Panificadora Moderna",
+    "partner_id": "60c2f2b4-c9a6-4d09-8bdf-9ab35fdd4219",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "12.85",
+    "original_value": "37.46"
+  },
+  {
+    "bag_id": "5f512ae6-3050-4151-af18-e932cafa82cf",
+    "name": "Forno Antigo da Esquina",
+    "partner_id": "5560d2c1-cc23-4f88-a98a-ff0fab464ac5",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "41.90",
+    "original_value": "116.59"
+  },
+  {
+    "bag_id": "f0d0d3e7-2e79-4dff-85c5-c5c4de126567",
+    "name": "Mundo Doce",
+    "partner_id": "abc6d2ea-b231-4a1f-8f17-6066a051824f",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "43.55",
+    "original_value": "134.56"
+  },
+  {
+    "bag_id": "7c7846bd-b682-4071-acbb-3462e74f048a",
+    "name": "Rei do Burger",
+    "partner_id": "25284b3c-cad1-4f71-a834-3fea1c579c1b",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "37.45",
+    "original_value": "127.12"
+  },
+  {
+    "bag_id": "1dc4f8cc-ab07-4090-9a7f-185d9d128ad9",
+    "name": "Mercado do Bairro",
+    "partner_id": "3132606c-6fe9-417a-8e7e-42bf4a4e770f",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "36.11",
+    "original_value": "124.07"
+  },
+  {
+    "bag_id": "f59302fb-b1f6-4334-b8c8-1d794198402c",
+    "name": "Grão de Ouro",
+    "partner_id": "0823f766-35c7-4bfa-9654-7dfb7db26752",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "46.62",
+    "original_value": "130.67"
+  },
+  {
+    "bag_id": "fc6d56a9-1123-4b51-87b1-1fd139fb66a9",
+    "name": "Estrela da Comida",
+    "partner_id": "38eb38c3-f3d4-487d-8f25-2c0d42e221b1",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "47.14",
+    "original_value": "125.27"
+  },
+  {
+    "bag_id": "1b8c3fab-d0bf-4236-adba-b956a07f8c8a",
+    "name": "Mix Super",
+    "partner_id": "407206e3-e4eb-4afe-8e61-375de453c73e",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "10.47",
+    "original_value": "32.54"
+  },
+  {
+    "bag_id": "dbd891d9-7ff0-458d-8148-cfde16e00372",
+    "name": "Seleção Gourmet",
+    "partner_id": "305e0fb7-c5cc-4532-b20d-14fa7cc26e13",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "20.64",
+    "original_value": "58.32"
+  },
+  {
+    "bag_id": "bab68e75-57ea-498d-8a7b-f9bfbe9d6742",
+    "name": "Banzai da Vila",
+    "partner_id": "2512eac0-0ed4-4bf5-a424-5879db0b58fe",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "33.00",
+    "original_value": "98.52"
+  },
+  {
+    "bag_id": "ac84fea8-936f-4a40-b52f-162dd73af20d",
+    "name": "Mix de Sabores",
+    "partner_id": "681089c0-1653-4e56-8735-80d08631e663",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "20.82",
+    "original_value": "48.90"
+  },
+  {
+    "bag_id": "47bc51f7-f031-464c-8840-e424184a28f7",
+    "name": "Forno de Ouro da Vila",
+    "partner_id": "2e734459-9942-48e7-a348-661eba9fdf1b",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "40.68",
+    "original_value": "101.10"
+  },
+  {
+    "bag_id": "f965c6b6-139b-437f-8f35-e4495558bb07",
+    "name": "Cantina da Nona da Esquina",
+    "partner_id": "8ce6b1d4-0522-4cbc-a1bb-32f146254895",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "21.60",
+    "original_value": "73.71"
+  },
+  {
+    "bag_id": "016f51b4-6467-44d4-8221-b9e7d27e32e2",
+    "name": "Mini Preço",
+    "partner_id": "9e3c71f0-7036-4e09-828a-4e0170c4de0b",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "41.36",
+    "original_value": "106.92"
+  },
+  {
+    "bag_id": "089cae65-615a-459d-a4ff-43cb9ba49efa",
+    "name": "Central Express",
+    "partner_id": "af4ab1fb-3953-4c4b-8e3c-4b88a8462312",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "25.88",
+    "original_value": "90.09"
+  },
+  {
+    "bag_id": "1b60427f-3ca7-449c-b5ee-f734d0964e66",
+    "name": "Pão Nosso Plus",
+    "partner_id": "8e534c25-4a16-4496-b914-663da975ae40",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "35.60",
+    "original_value": "85.55"
+  },
+  {
+    "bag_id": "036f96b6-00f7-4250-adbf-d9fe1f483d2e",
+    "name": "Villa Real do Bairro",
+    "partner_id": "0ccdeb96-cb5b-4570-ab7b-8f54637bd1ba",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "17.44",
+    "original_value": "47.25"
+  },
+  {
+    "bag_id": "eb745ebf-1fe1-410c-847b-9f81a26f243c",
+    "name": "Mercado Popular da Vila",
+    "partner_id": "16eb6148-22a0-4735-8cf9-56e66726d136",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "49.39",
+    "original_value": "109.35"
+  },
+  {
+    "bag_id": "86785077-2c28-48bd-b883-ed86bb4d7a3c",
+    "name": "Plaza Palace",
+    "partner_id": "f3fa239a-5f47-4a7e-95b0-07e973be7d33",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "33.71",
+    "original_value": "75.70"
+  },
+  {
+    "bag_id": "98abac2f-7a30-4b2d-a22f-4054f8c9e45e",
+    "name": "Cantina da Nona Tradicional",
+    "partner_id": "92b10484-3d7d-4b28-8079-1d15b251cd50",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "11.91",
+    "original_value": "30.20"
+  },
+  {
+    "bag_id": "02f042e0-4a45-4a3a-bd6d-87bf4f6eb028",
+    "name": "Ponto Comercial",
+    "partner_id": "78df4ed2-71ce-49aa-9010-aa84ff9144d3",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "37.10",
+    "original_value": "96.45"
+  },
+  {
+    "bag_id": "8d846ee3-26c1-48bc-bf7c-4fed837c684f",
+    "name": "Super São José da Praça",
+    "partner_id": "cc798a0a-0230-4d43-bfe4-516df617a9a8",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "32.78",
+    "original_value": "80.33"
+  },
+  {
+    "bag_id": "c5604542-fc52-458f-98ee-c341f08b3a65",
+    "name": "Doce Ateliê Premium",
+    "partner_id": "8e04f063-2aca-4248-b408-1d0fa6fb5e13",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "MIXED",
+    "bag_price": "46.66",
+    "original_value": "117.95"
+  },
+  {
+    "bag_id": "f751070d-570d-4ff6-8745-4257c71df226",
+    "name": "Rainha do Pão Vip",
+    "partner_id": "1d39a728-c19b-4d3b-935a-e12f69be86b8",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "43.02",
+    "original_value": "135.72"
+  },
+  {
+    "bag_id": "2edf00fd-b097-4c3b-b6e4-9fd963da33bd",
+    "name": "Mundo dos Sabores",
+    "partner_id": "ddcd6dcb-6718-44ef-b2c1-593088839190",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "43.89",
+    "original_value": "100.76"
+  },
+  {
+    "bag_id": "fcb08fca-6691-40c0-8fa2-26e53549d906",
+    "name": "Variedades da Vila",
+    "partner_id": "98386d98-2b90-4060-b998-c38aef7c2183",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "31.30",
+    "original_value": "91.78"
+  },
+  {
+    "bag_id": "da18ea59-ee5f-4754-91df-b029250d85cc",
+    "name": "Grãos e Vinhos",
+    "partner_id": "a6980b88-ec3b-4c21-9b6b-6718d143ef23",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "21.50",
+    "original_value": "68.57"
+  },
+  {
+    "bag_id": "60a92de7-7842-4cd4-9feb-0ce6eaf206f8",
+    "name": "Seleção do Dia",
+    "partner_id": "158dee04-0a61-4028-b0d3-201fc3c1b197",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "28.08",
+    "original_value": "76.79"
+  },
+  {
+    "bag_id": "bb62deac-9c2a-48be-a921-56ddcb5d104c",
+    "name": "Mangiare Especial",
+    "partner_id": "982e37b0-9483-422e-abec-e513ebbd82be",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "29.05",
+    "original_value": "58.12"
+  },
+  {
+    "bag_id": "0ef5a64f-42f4-433f-be7f-641abacdd097",
+    "name": "Pão de Ouro Original",
+    "partner_id": "b74c4428-2e81-4e0f-8dda-81b030c96705",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "33.65",
+    "original_value": "104.42"
+  },
+  {
+    "bag_id": "185b49ec-35de-4941-8731-c1d7f7a5b8ec",
+    "name": "Portal dos Doces Gourmet",
+    "partner_id": "41ddb2fc-fd2b-479e-97ce-40004b512cb1",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "31.48",
+    "original_value": "67.23"
+  },
+  {
+    "bag_id": "57f74d74-2371-4778-917d-5e84dc833b00",
+    "name": "Mercadão do Povo Premium",
+    "partner_id": "e9789dbb-a2e4-439a-94bf-0f647847dcd5",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "29.28",
+    "original_value": "95.04"
+  },
+  {
+    "bag_id": "9fa54c50-f492-43cb-b355-c11510c08df2",
+    "name": "Doce Sabor Gourmet",
+    "partner_id": "55e02fd8-8cd3-4b2e-8e4d-6fb5a2d3c221",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "MIXED",
+    "bag_price": "47.28",
+    "original_value": "137.27"
+  },
+  {
+    "bag_id": "03f67d44-9c1d-425b-88d2-db942099047f",
+    "name": "Sushi Master do Bairro",
+    "partner_id": "cef704f9-fab4-4ffb-b2bd-3a3382b7effc",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "38.47",
+    "original_value": "117.77"
+  },
+  {
+    "bag_id": "ed4fa3bb-1a85-4250-863e-9214a5ff437d",
+    "name": "Grãos e Vinhos Express",
+    "partner_id": "5b758efd-1442-4d81-9661-f68f9b5e552a",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "21.20",
+    "original_value": "59.61"
+  },
+  {
+    "bag_id": "f50388ee-a557-4f97-b52a-6e3b344d8104",
+    "name": "Hanami",
+    "partner_id": "979bbfd8-51fc-45a5-b706-66a91e7ae865",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "42.21",
+    "original_value": "86.25"
+  },
+  {
+    "bag_id": "d485373f-91b3-4fd6-b880-5782f97fd865",
+    "name": "Gourmet Garden",
+    "partner_id": "4de82820-5e1e-44f1-bc45-15785150787b",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "13.50",
+    "original_value": "35.97"
+  },
+  {
+    "bag_id": "0dabf3b7-8856-4194-a246-e946b1ea5a99",
+    "name": "Solar das Artes Tradicional",
+    "partner_id": "520d9087-1675-4334-a3ea-cf20a20dc61b",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "13.29",
+    "original_value": "32.11"
+  },
+  {
+    "bag_id": "d8087066-03a5-462d-8701-69c34759b023",
+    "name": "Atelier dos Doces",
+    "partner_id": "d2c27aaf-0689-4455-b733-b840925a35dd",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "30.89",
+    "original_value": "73.07"
+  },
+  {
+    "bag_id": "cb51554b-579e-4836-821d-2f8bd1fab1d4",
+    "name": "Banzai da Praça",
+    "partner_id": "ce9b24c7-a9fc-4281-8f4c-80836c98a895",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "47.81",
+    "original_value": "136.31"
+  },
+  {
+    "bag_id": "cbb207d7-d49d-47bc-aced-1025687606df",
+    "name": "Solar do Sabor",
+    "partner_id": "cd561a27-d023-4138-b20d-2a7c5101b5f5",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "26.24",
+    "original_value": "61.57"
+  },
+  {
+    "bag_id": "d7b39781-4060-486a-aba6-26aae329228f",
+    "name": "Rei do Burger do Centro",
+    "partner_id": "7883a1b7-11e4-400d-8d4c-79b921c7cb25",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "24.65",
+    "original_value": "73.19"
+  },
+  {
+    "bag_id": "637fe0d7-35c6-40d2-9cd1-0253df2e0601",
+    "name": "Atelier dos Doces Plus",
+    "partner_id": "0336a852-15b5-405b-b3dc-f0b2bca0b9e8",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "MIXED",
+    "bag_price": "41.55",
+    "original_value": "137.53"
+  },
+  {
+    "bag_id": "dba9f17c-b347-43a9-a01f-8f81abeeb34a",
+    "name": "Grãos Selecionados",
+    "partner_id": "4965ff47-786e-4729-a89e-89efe9899d56",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "12.48",
+    "original_value": "32.60"
+  },
+  {
+    "bag_id": "cea680c2-47e2-4542-9fd1-b80b20ff335e",
+    "name": "Pão Nosso",
+    "partner_id": "918ac252-34ab-4d04-a96d-35d41ca67572",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "40.54",
+    "original_value": "137.43"
+  },
+  {
+    "bag_id": "37f27d24-d9d9-45ac-87dc-5276bc9e24c5",
+    "name": "Varejão do Centro Master",
+    "partner_id": "2b7fd7d4-091f-4d59-94d1-2a882d8561a5",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "22.84",
+    "original_value": "55.23"
+  },
+  {
+    "bag_id": "f85732a6-319a-478b-937c-51ec38000064",
+    "name": "Solar do Sabor Master",
+    "partner_id": "7350c85f-7a95-4cc8-bffa-7463a42a0234",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "21.96",
+    "original_value": "72.77"
+  },
+  {
+    "bag_id": "fbfce5f8-da98-4f2c-a1e3-7d6de49a1903",
+    "name": "Smart Market Premium",
+    "partner_id": "4f2afc70-48fd-4831-af72-4fe064e8b9b6",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "41.05",
+    "original_value": "106.12"
+  },
+  {
+    "bag_id": "dc68143e-9584-4223-8839-80be1eddbc1f",
+    "name": "Sabor Asiático",
+    "partner_id": "fe5da5c5-8e55-4526-81af-8de9fb1bcbd1",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "22.81",
+    "original_value": "77.70"
+  },
+  {
+    "bag_id": "65e3da67-e7bb-436a-8cb0-3c0285bdbb53",
+    "name": "Café do Porto Express",
+    "partner_id": "ae97b13f-5bf3-44b7-89f4-c27f8b3fd05d",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "16.20",
+    "original_value": "50.15"
+  },
+  {
+    "bag_id": "cce28f19-53eb-411e-8cfd-2d546849fb97",
+    "name": "Express Market Vip",
+    "partner_id": "00714f2a-0cb1-4a0b-832e-c11ded5c7b1a",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "46.35",
+    "original_value": "157.05"
+  },
+  {
+    "bag_id": "b9043702-2184-4cfd-9983-cfbd9f35fede",
+    "name": "Bistrô do Chef Ponto Central",
+    "partner_id": "d85f7f19-229a-429f-9026-7d9d0261546a",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "24.39",
+    "original_value": "79.12"
+  },
+  {
+    "bag_id": "3b1ecd99-71a2-4192-b47b-feb6f609da47",
+    "name": "Mini Preço Master",
+    "partner_id": "6827ac47-5205-416e-a67f-e5cbc2f43a30",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "47.01",
+    "original_value": "139.81"
+  },
+  {
+    "bag_id": "3c7479db-7910-4b8c-87a0-0f4f943f6dbf",
+    "name": "Butecom Master",
+    "partner_id": "a4db22da-6c05-48b4-8dd5-0bb604b52039",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "26.27",
+    "original_value": "68.00"
+  },
+  {
+    "bag_id": "2acd7b74-6c7f-434e-abea-498d722abe9e",
+    "name": "Cantinho do Descanso do Bairro",
+    "partner_id": "d4829b56-ab59-4b2a-95b6-913a98758e85",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "44.72",
+    "original_value": "138.17"
+  },
+  {
+    "bag_id": "056fbedb-2b88-45f5-b613-69470e1620c1",
+    "name": "Doceria Sonho Real Gourmet",
+    "partner_id": "fe3d5051-161c-4780-9258-ac0c2cd7a995",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "32.53",
+    "original_value": "93.96"
+  },
+  {
+    "bag_id": "ae547d27-db01-47db-90b8-0759ed93080c",
+    "name": "Sakura Sabores Gourmet",
+    "partner_id": "b78f075f-9971-416d-9726-132e05065a03",
+    "segment_name": "Culinária Oriental",
+    "bag_category": "Japonesa",
+    "bag_type": "SAVORY",
+    "bag_price": "13.79",
+    "original_value": "30.97"
+  },
+  {
+    "bag_id": "c3eda0cb-5e61-42e3-89fb-ecce251a8fd3",
+    "name": "Super Útil Especial",
+    "partner_id": "77fc1729-8905-4d84-bf3c-bd54cc599559",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "24.73",
+    "original_value": "71.89"
+  },
+  {
+    "bag_id": "e7e5bf01-afec-4ca3-b0a2-248beb5b0867",
+    "name": "Preço Justo",
+    "partner_id": "afc93f01-0063-40c5-92f1-7f0e0e3c00f6",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "47.11",
+    "original_value": "101.10"
+  },
+  {
+    "bag_id": "8855a17f-e785-4b6b-81e3-cf8635780c45",
+    "name": "Empório da Vila Express",
+    "partner_id": "c7453a67-21f8-4487-9f00-b4a4459ecec8",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "34.29",
+    "original_value": "104.52"
+  },
+  {
+    "bag_id": "4a9fb6e8-8265-4f5b-994b-42a25dead11c",
+    "name": "Mercado Real Plus",
+    "partner_id": "b6d8f738-cdd3-4ee0-b03c-bbf3a367a25b",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "10.14",
+    "original_value": "21.02"
+  },
+  {
+    "bag_id": "bb93bc17-cb60-4571-9788-e07270cdca92",
+    "name": "Seleção Gourmet Gourmet",
+    "partner_id": "fdd5bc89-a933-42d2-8f38-9338d7339cec",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "45.24",
+    "original_value": "120.61"
+  },
+  {
+    "bag_id": "b78b3b9b-3f41-46ac-b1d2-e975bc724a0b",
+    "name": "Solar das Artes do Centro",
+    "partner_id": "2934e6ab-b011-46b2-bbd7-2362aa05a2c8",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "15.64",
+    "original_value": "36.01"
+  },
+  {
+    "bag_id": "91034d62-4307-4907-9132-b07e601e3801",
+    "name": "Doce Ateliê",
+    "partner_id": "d27fe36d-fe6d-49ee-8825-366492b67754",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "14.60",
+    "original_value": "44.88"
+  },
+  {
+    "bag_id": "85e898a5-941f-4004-b8e1-e3db77097a09",
+    "name": "Oportunidade Única",
+    "partner_id": "33ae7588-59cd-4021-9873-dc22db672028",
+    "segment_name": "Outros",
+    "bag_category": "Bomboniere",
+    "bag_type": "MIXED",
+    "bag_price": "49.54",
+    "original_value": "145.08"
+  },
+  {
+    "bag_id": "e908c218-4082-403a-a8d9-1f491b478d1a",
+    "name": "Café Cultur",
+    "partner_id": "5c14a85f-d183-490d-84c4-35ff1b1a5509",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "28.62",
+    "original_value": "85.39"
+  },
+  {
+    "bag_id": "42a75d36-3cd7-4984-b718-d7f67653c889",
+    "name": "Empório Central",
+    "partner_id": "e3e8f64c-1ca9-42e6-9bfc-96fb06d3dd04",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "SAVORY",
+    "bag_price": "23.72",
+    "original_value": "76.77"
+  },
+  {
+    "bag_id": "77a2534f-04eb-452f-85fc-65ad34defd01",
+    "name": "Pão e Cia Master",
+    "partner_id": "942cf878-71e2-466c-a8e2-d875ea68dffa",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "30.11",
+    "original_value": "64.02"
+  },
+  {
+    "bag_id": "9ef9307e-20a0-4c48-bf5d-c28a0a0acfa1",
+    "name": "Vila de Ofertas Plus",
+    "partner_id": "b22cca82-4d1c-4685-91d5-4212cc08fcd7",
+    "segment_name": "Mercado",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "41.11",
+    "original_value": "87.02"
+  },
+  {
+    "bag_id": "b74be346-a67b-4202-a4ab-2faf13944d90",
+    "name": "Villa Real",
+    "partner_id": "29233d30-73a5-4947-b188-fbd95122b6e9",
+    "segment_name": "Hotel",
+    "bag_category": "Hotel",
+    "bag_type": "MIXED",
+    "bag_price": "20.22",
+    "original_value": "58.26"
+  },
+  {
+    "bag_id": "d5551f60-eb24-432a-830b-85badee17fac",
+    "name": "Mercado Família do Bairro",
+    "partner_id": "a1dd8eff-5bfd-4d8f-95d2-dc7dd3bcfca2",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "44.84",
+    "original_value": "155.68"
+  },
+  {
+    "bag_id": "9dce0485-7cf6-470c-9c56-1792a51e98c5",
+    "name": "Cozinha Divina",
+    "partner_id": "3b64902d-6891-422a-b2ab-d8cc67c61b70",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "45.58",
+    "original_value": "103.24"
+  },
+  {
+    "bag_id": "f247037d-6970-4724-af8d-03ba5b86cb24",
+    "name": "Mangiare",
+    "partner_id": "4db3fb68-5e09-4579-a69a-b1835fde420b",
+    "segment_name": "Restaurante",
+    "bag_category": "Diversos",
+    "bag_type": "SAVORY",
+    "bag_price": "34.97",
+    "original_value": "120.11"
+  },
+  {
+    "bag_id": "287451de-8fbc-405c-aa75-51ba6259b05d",
+    "name": "Varanda Gourmet",
+    "partner_id": "5d555053-5567-4bd5-9598-8c440f763658",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "15.31",
+    "original_value": "50.49"
+  },
+  {
+    "bag_id": "2a176030-8442-4886-a8a0-5f0811af5df1",
+    "name": "Ponto do Hambúrguer",
+    "partner_id": "fe3fc552-f39e-40fc-8a75-a21dedc407a2",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "27.69",
+    "original_value": "85.57"
+  },
+  {
+    "bag_id": "77bba58f-0ef6-4da1-9296-63733a5cc5ac",
+    "name": "Encanto do Doce Vip",
+    "partner_id": "758fdcdf-2f78-4f43-8e24-bfe4a667a975",
+    "segment_name": "Doceria",
+    "bag_category": "Bomboniere",
+    "bag_type": "SWEET",
+    "bag_price": "41.78",
+    "original_value": "111.01"
+  },
+  {
+    "bag_id": "f4bb5734-8581-454a-96b1-9455a030852a",
+    "name": "Empório Central Express",
+    "partner_id": "6e5a4107-456f-4327-bf0b-7615935fa137",
+    "segment_name": "Empório",
+    "bag_category": "Empório",
+    "bag_type": "MIXED",
+    "bag_price": "47.15",
+    "original_value": "117.30"
+  },
+  {
+    "bag_id": "560d0e9e-8197-4293-a8f2-d6e49aae0c89",
+    "name": "Brutus Burger do Centro",
+    "partner_id": "a5d3fdd2-e2f3-4ea5-94ec-4fdb21594419",
+    "segment_name": "Hamburgueria",
+    "bag_category": "Hamburgueria",
+    "bag_type": "SAVORY",
+    "bag_price": "35.05",
+    "original_value": "106.33"
+  },
+  {
+    "bag_id": "13116aaa-2ecc-4c29-b233-096cbb1f3fce",
+    "name": "Pratice Market Express",
+    "partner_id": "a977e3f1-96f7-4c2f-9bf4-d5dd9b9b81a9",
+    "segment_name": "Mercado",
+    "bag_category": "Supermercado",
+    "bag_type": "MIXED",
+    "bag_price": "24.38",
+    "original_value": "81.35"
+  },
+  {
+    "bag_id": "a112dff3-8e46-49ab-b5d7-ac937a2d8a62",
+    "name": "Atelier dos Doces Gourmet",
+    "partner_id": "ce0e6d47-796d-4f7b-ae36-efb875449a92",
+    "segment_name": "Doceria",
+    "bag_category": "Confeitaria",
+    "bag_type": "SWEET",
+    "bag_price": "34.69",
+    "original_value": "105.37"
+  },
+  {
+    "bag_id": "885183fb-6a4a-4dfe-9c90-e20e071464ba",
+    "name": "Ponto do Trigo Especial",
+    "partner_id": "7249cfc3-f319-461c-8893-78dfc574be7b",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "SWEET",
+    "bag_price": "29.25",
+    "original_value": "58.54"
+  },
+  {
+    "bag_id": "fd950e0f-f8c9-4d2a-bff4-a157e56d8853",
+    "name": "Santo Café",
+    "partner_id": "d7e31ec0-39fe-47be-8cd9-123ec38ce705",
+    "segment_name": "Cafeteria",
+    "bag_category": "Cafeteria",
+    "bag_type": "SAVORY",
+    "bag_price": "19.30",
+    "original_value": "54.89"
+  },
+  {
+    "bag_id": "eba40944-2c6c-47d7-a12c-8e0ee3671c98",
+    "name": "Gourmet Garden da Praça",
+    "partner_id": "cd53c214-bee9-4e5c-ac40-02a4962ff8eb",
+    "segment_name": "Restaurante",
+    "bag_category": "Restaurante",
+    "bag_type": "SAVORY",
+    "bag_price": "28.50",
+    "original_value": "70.19"
+  },
+  {
+    "bag_id": "d984931a-0dc9-4f20-a509-1d6fac1942de",
+    "name": "Central do Pão Express",
+    "partner_id": "42e5ea26-ad5a-493d-8b39-9ecad3664f61",
+    "segment_name": "Padaria",
+    "bag_category": "Padaria",
+    "bag_type": "MIXED",
+    "bag_price": "13.47",
+    "original_value": "30.16"
+  },
+  {
+    "bag_id": "7e7b64c7-eb38-4d8c-a3fe-3eecb50ea76e",
+    "name": "Mercado Família Ponto Central",
+    "partner_id": "f91e6ade-74cb-45e7-9605-5720b9cf1987",
+    "segment_name": "Mercado",
+    "bag_category": "Diversos",
+    "bag_type": "MIXED",
+    "bag_price": "31.37",
+    "original_value": "102.50"
   }
 ]

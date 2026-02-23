@@ -6,14 +6,14 @@ let _globalCtx = {};
 let _model = null;
 
 const WEIGHTS = {
-  price: 0.3,
-  score: 0.1,
+  price: 0.2,
+  score: 0.0,
   scoreVariety: 0.0,
   scoreQuantity: 0.0,
-  scoreQuality: 0.1,
+  scoreQuality: 0.0,
   category: 0.2,
   type: 0.3,
-  segment: 0.0,
+  segment: 0.3,
 };
 
 function normalize(value, min, max) {
