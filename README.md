@@ -76,5 +76,81 @@ The system encodes categorical data (segments, categories, bag types) into numer
 
 To prevent neural network optimization collapse, the system structures the context by actively balancing the dataset with positive labels (actual purchases) and a proportionate number of negative labels (random unpurchased bags). Training occurs in the background via `modelTrainingWorker.js` to prevent UI thread blocking, seamlessly passing the predictions back for sorting the recommendation feed.
 
+### Data Processing Flow
+
+```mermaid
+flowchart LR
+    A[Read Data<br>Customers & Bags] --> B[Context Assembly<br>makeContext & enhanceContext]
+    B --> C[Create Training Data<br>Positive & Negative Examples]
+    C --> D[Configure & Train Neural Network]
+    D --> E[Trained Recommendation Model]
+    E --> F[Encode Customer & Available Bags]
+    F --> G[Predict Scores & Sort Recommendations]
+```
+
+### Neural Network Architecture
+
+```mermaid
+flowchart LR
+    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef hidden fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef output fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+
+    subgraph Input Layer [Input Layer: Features]
+        i1((i₁)):::input
+        i2((i₂)):::input
+        i3((⋮)):::input
+        iN((iₙ)):::input
+    end
+
+    subgraph Hidden1 [Hidden Layer 1: 128 Units, ReLU]
+        h1_1((h¹₁)):::hidden
+        h1_2((h¹₂)):::hidden
+        h1_3((⋮)):::hidden
+        h1_N((h¹₁₂₈)):::hidden
+    end
+
+    subgraph Hidden2 [Hidden Layer 2: 64 Units, ReLU]
+        h2_1((h²₁)):::hidden
+        h2_2((h²₂)):::hidden
+        h2_3((⋮)):::hidden
+        h2_N((h²₆₄)):::hidden
+    end
+
+    subgraph Hidden3 [Hidden Layer 3: 32 Units, ReLU]
+        h3_1((h³₁)):::hidden
+        h3_2((h³₂)):::hidden
+        h3_3((⋮)):::hidden
+        h3_N((h³₃₂)):::hidden
+    end
+
+    subgraph Output Layer [Output Layer: 1 Unit, Sigmoid]
+        O((o₁)):::output
+    end
+
+    %% Dense Connections mapping (using longer edges to space subgraphs)
+    i1 ----> h1_1 & h1_2 & h1_N
+    i2 ----> h1_1 & h1_2 & h1_N
+    i3 ----> h1_1 & h1_2 & h1_N
+    iN ----> h1_1 & h1_2 & h1_N
+
+    h1_1 ----> h2_1 & h2_2 & h2_N
+    h1_2 ----> h2_1 & h2_2 & h2_N
+    h1_N ----> h2_1 & h2_2 & h2_N
+
+    h2_1 ----> h3_1 & h3_2 & h3_N
+    h2_N ----> h3_1 & h3_2 & h3_N
+
+    h3_1 ----> O
+    h3_2 ----> O
+    h3_N ----> O
+```
+
+### How the Recommendation Model Works
+
+1. **Input Layer**: It acts as the gateway for our contextual data, receiving a dynamically generated 1D Tensor that concatenates the customer's historical profile metrics with an available bag's specific encoded features (price, feedback scores, category, type, and segment).
+2. **Hidden Layers (MLP)**: The model utilizes a deep feed-forward multi-layer perceptron architecture. Three dense hidden layers (comprising 128, 64, and 32 computational units, respectively) utilize the `ReLU` (Rectified Linear Unit) activation function. These layers serve to extract complex, non-linear relationships and behavioral patterns between what a customer typically purchases and the characteristics of the suggested bags.
+3. **Output Layer**: A final dense layer narrows the computation down to a single output unit using a `Sigmoid` activation function. This produces a final continuous probability score between 0 and 1, representing the model's confidence that the customer will purchase this specific bag. The application then uses these scores to rank and sort the recommendations from highest to lowest relevance.
+
 ---
 *Developed for academic purposes in the Engenharia de Software com IA Aplicada program.*
